@@ -2,10 +2,12 @@
   "id": 1746771269,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-12-02",
+    "date:cessation_upper": "2021-12-02",
     "date:inception_lower": "2021-12-01",
     "date:inception_upper": "2021-12-01",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-12-01",
+    "edtf:cessation": "2021-12-02T04:22:00Z",
+    "edtf:inception": "2021-12-01T23:28:00Z",
     "flysfo:actual_timestamp": 1638400440,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-12-01",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.1546165,
     "geom:longitude": -98.2742345,
     "iata:airline": "UA",
+    "icao:aircraft": "B763",
     "icao:airline": "UAL",
     "lbl:latitude": 37.620304,
     "lbl:longitude": -122.388827,
+    "sfomuseum:aircraft_id": 1159289965,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102530049,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N685UA",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +57,10 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "9691354",
+      "swim:gufi": "KO79966400"
+    },
     "wof:country": "US",
     "wof:created": 1638461944,
     "wof:geomhash": "5f8ba203e186fe379420b736bcf5de4f",
@@ -84,9 +97,10 @@
       102530049,
       102527513,
       1159285413,
-      1745882279
+      1745882279,
+      1159289965
     ],
-    "wof:lastmodified": 1638461944,
+    "wof:lastmodified": 1638462072,
     "wof:name": "UA1909 (SFO-EWR)",
     "wof:parent_id": 1745882279,
     "wof:placetype": "custom",

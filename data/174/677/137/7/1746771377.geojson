@@ -2,10 +2,12 @@
   "id": 1746771377,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2021-12-01",
-    "date:inception_upper": "2021-12-01",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-12-01",
+    "date:cessation_lower": "2021-12-02",
+    "date:cessation_upper": "2021-12-02",
+    "date:inception_lower": "2021-12-02",
+    "date:inception_upper": "2021-12-02",
+    "edtf:cessation": "2021-12-02T11:49:00Z",
+    "edtf:inception": "2021-12-02T06:46:00Z",
     "flysfo:actual_timestamp": 1638403200,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-12-01",
@@ -21,9 +23,11 @@
     "geom:latitude": 31.846425,
     "geom:longitude": -101.2547305,
     "iata:airline": "UA",
+    "icao:aircraft": "B752",
     "icao:airline": "UAL",
     "lbl:latitude": 37.620304,
     "lbl:longitude": -122.388827,
+    "sfomuseum:aircraft_id": 1159289939,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102530841,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N17122",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +58,10 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "9622597",
+      "swim:gufi": "KO14795500"
+    },
     "wof:country": "US",
     "wof:created": 1638461972,
     "wof:geomhash": "2155b19e54308f477f2a379762b2f6c8",
@@ -81,12 +95,13 @@
     ],
     "wof:id": 1746771377,
     "wof:involves": [
+      1159289939,
       102530841,
       102527513,
       1159285413,
       1745882279
     ],
-    "wof:lastmodified": 1638461972,
+    "wof:lastmodified": 1638462072,
     "wof:name": "UA2482 (SFO-FLL)",
     "wof:parent_id": 1745882279,
     "wof:placetype": "custom",

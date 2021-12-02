@@ -2,10 +2,12 @@
   "id": 1746767879,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-12-01",
+    "date:cessation_upper": "2021-12-01",
     "date:inception_lower": "2021-12-01",
     "date:inception_upper": "2021-12-01",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-12-01",
+    "edtf:cessation": "2021-12-01T08:15:11Z",
+    "edtf:inception": "2021-12-01T03:10:00Z",
     "flysfo:actual_timestamp": 1638346680,
     "flysfo:airline": "AS",
     "flysfo:date": "2021-12-01",
@@ -48,6 +50,9 @@
       1745882085,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "9617720"
+    },
     "wof:country": "US",
     "wof:created": 1638461089,
     "wof:geomhash": "1ad63fa22de9103ed4396c0ca683f63f",
@@ -86,7 +91,7 @@
       1159283813,
       1745882115
     ],
-    "wof:lastmodified": 1638461089,
+    "wof:lastmodified": 1638462076,
     "wof:name": "AS710 (HNL-SFO)",
     "wof:parent_id": 1745882115,
     "wof:placetype": "custom",

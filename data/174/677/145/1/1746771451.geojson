@@ -2,10 +2,12 @@
   "id": 1746771451,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-12-02",
+    "date:cessation_upper": "2021-12-02",
     "date:inception_lower": "2021-12-01",
     "date:inception_upper": "2021-12-01",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-12-01",
+    "edtf:cessation": "2021-12-02T07:35:00Z",
+    "edtf:inception": "2021-12-01T08:17:00Z",
     "flysfo:actual_timestamp": 1638426960,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-12-01",
@@ -21,9 +23,11 @@
     "geom:latitude": 38.5616045,
     "geom:longitude": -121.07155499999999,
     "iata:airline": "UA",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "lbl:latitude": 37.618339,
     "lbl:longitude": -122.387219,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102525535,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N817UA",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +58,10 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "9623440",
+      "swim:gufi": "KO17270500"
+    },
     "wof:country": "US",
     "wof:created": 1638461992,
     "wof:geomhash": "414447526a1ddeb77713c60c4ab5a7e4",
@@ -81,12 +95,13 @@
     ],
     "wof:id": 1746771451,
     "wof:involves": [
-      102525535,
-      102527513,
       1159285413,
-      1745882255
+      1745882255,
+      1159289407,
+      102525535,
+      102527513
     ],
-    "wof:lastmodified": 1638461992,
+    "wof:lastmodified": 1638462082,
     "wof:name": "UA532 (SFO-RNO)",
     "wof:parent_id": 1745882255,
     "wof:placetype": "custom",
