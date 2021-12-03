@@ -2,10 +2,12 @@
   "id": 1746781007,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-12-03",
+    "date:cessation_upper": "2021-12-03",
     "date:inception_lower": "2021-12-02",
     "date:inception_upper": "2021-12-02",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-12-02",
+    "edtf:cessation": "2021-12-03T11:31:00Z",
+    "edtf:inception": "2021-12-02T15:14:58-08:00",
     "flysfo:actual_timestamp": 1638489600,
     "flysfo:airline": "DL",
     "flysfo:date": "2021-12-02",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.627254,
     "geom:longitude": -103.4008145,
     "iata:airline": "DL",
+    "icao:aircraft": "B752",
     "icao:airline": "DAL",
     "lbl:latitude": 37.614944,
     "lbl:longitude": -122.383123,
+    "sfomuseum:aircraft_id": 1159289939,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102526927,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N6705Y",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +57,9 @@
       1745882137,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KO22021600"
+    },
     "wof:country": "US",
     "wof:created": 1638548191,
     "wof:geomhash": "8306f5516cededf93440c49d2c7be198",
@@ -81,12 +93,13 @@
     ],
     "wof:id": 1746781007,
     "wof:involves": [
-      102526927,
-      102527513,
       1159284261,
-      1745882201
+      1745882201,
+      1159289939,
+      102526927,
+      102527513
     ],
-    "wof:lastmodified": 1638548191,
+    "wof:lastmodified": 1638548544,
     "wof:name": "DL967 (SFO-ATL)",
     "wof:parent_id": 1745882201,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 1746779809,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-12-02",
+    "date:cessation_upper": "2021-12-02",
     "date:inception_lower": "2021-12-02",
     "date:inception_upper": "2021-12-02",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-12-02",
+    "edtf:cessation": "2021-12-02T10:17:38-08:00",
+    "edtf:inception": "2021-12-02T16:43:00Z",
     "flysfo:actual_timestamp": 1638489600,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-12-02",
@@ -21,9 +23,11 @@
     "geom:latitude": 37.535978,
     "geom:longitude": 2.1453445,
     "iata:airline": "UA",
+    "icao:aircraft": "B77W",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61844,
     "lbl:longitude": -122.392214,
+    "sfomuseum:aircraft_id": 1159289993,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102556451,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N2331U",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +57,10 @@
       1745882335,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "9733102",
+      "swim:gufi": "KS46959501"
+    },
     "wof:country": "US",
     "wof:created": 1638547889,
     "wof:geomhash": "83e2c60a8819c96e9fa3721059c5eac5",
@@ -81,12 +94,13 @@
     ],
     "wof:id": 1746779809,
     "wof:involves": [
+      1159289993,
       102527513,
       102556451,
       1159285413,
       1745882427
     ],
-    "wof:lastmodified": 1638547889,
+    "wof:lastmodified": 1638548541,
     "wof:name": "UA858 (ICN-SFO)",
     "wof:parent_id": 1745882427,
     "wof:placetype": "custom",

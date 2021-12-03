@@ -2,10 +2,12 @@
   "id": 1746781955,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-12-02",
+    "date:cessation_upper": "2021-12-02",
     "date:inception_lower": "2021-12-02",
     "date:inception_upper": "2021-12-02",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-12-02",
+    "edtf:cessation": "2021-12-02T19:55:00Z",
+    "edtf:inception": "2021-12-02T02:45:22-08:00",
     "flysfo:actual_timestamp": 1638489600,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-12-02",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.647857,
     "geom:longitude": -120.1186115,
     "iata:airline": "UA",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "lbl:latitude": 37.618339,
     "lbl:longitude": -122.387219,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102534161,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N810UA",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +57,10 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "9753076",
+      "swim:gufi": "KO60166500"
+    },
     "wof:country": "US",
     "wof:created": 1638548432,
     "wof:geomhash": "b700d5ae3794da4176af6b85f6cd6669",
@@ -81,12 +94,13 @@
     ],
     "wof:id": 1746781955,
     "wof:involves": [
+      1159289407,
       102534161,
       102527513,
       1159285413,
       1745882255
     ],
-    "wof:lastmodified": 1638548432,
+    "wof:lastmodified": 1638548546,
     "wof:name": "UA1995 (SFO-SNA)",
     "wof:parent_id": 1745882255,
     "wof:placetype": "custom",

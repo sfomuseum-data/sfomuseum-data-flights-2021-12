@@ -2,10 +2,12 @@
   "id": 1746779945,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2021-12-02",
-    "date:inception_upper": "2021-12-02",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-12-02",
+    "date:cessation_lower": "2021-12-03",
+    "date:cessation_upper": "2021-12-03",
+    "date:inception_lower": "2021-12-03",
+    "date:inception_upper": "2021-12-03",
+    "edtf:cessation": "2021-12-03T11:29:53Z",
+    "edtf:inception": "2021-12-03T06:16:00Z",
     "flysfo:actual_timestamp": 1638489600,
     "flysfo:airline": "AA",
     "flysfo:date": "2021-12-02",
@@ -21,9 +23,11 @@
     "geom:latitude": 31.70423,
     "geom:longitude": -101.3334745,
     "iata:airline": "AA",
+    "icao:aircraft": "B738",
     "icao:airline": "AAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159283849,
     "sfomuseum:arrival_id": 102531023,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N805NN",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +57,9 @@
       1745882137,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KO15341600"
+    },
     "wof:country": "US",
     "wof:created": 1638547923,
     "wof:geomhash": "05e474f4bf1eb5ae110c20d94aac828f",
@@ -81,12 +93,13 @@
     ],
     "wof:id": 1746779945,
     "wof:involves": [
-      102531023,
-      102527513,
       1159283849,
-      1745882173
+      1745882173,
+      1159289871,
+      102531023,
+      102527513
     ],
-    "wof:lastmodified": 1638547923,
+    "wof:lastmodified": 1638548542,
     "wof:name": "AA2035 (SFO-MIA)",
     "wof:parent_id": 1745882173,
     "wof:placetype": "custom",

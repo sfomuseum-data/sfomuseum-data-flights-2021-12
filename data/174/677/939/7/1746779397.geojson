@@ -2,10 +2,12 @@
   "id": 1746779397,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-12-02",
+    "date:cessation_upper": "2021-12-02",
     "date:inception_lower": "2021-12-02",
     "date:inception_upper": "2021-12-02",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-12-02",
+    "edtf:cessation": "2021-12-02T03:02:08-08:00",
+    "edtf:inception": "2021-12-02T12:57:00Z",
     "flysfo:actual_timestamp": 1638489600,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-12-02",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.990156,
     "geom:longitude": -96.6928465,
     "iata:airline": "UA",
+    "icao:aircraft": "B39M",
     "icao:airline": "UAL",
     "lbl:latitude": 37.619124,
     "lbl:longitude": -122.383949,
+    "sfomuseum:aircraft_id": 1528104577,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102530741,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N67501",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +57,10 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "9720743",
+      "swim:gufi": "KB35337500"
+    },
     "wof:country": "US",
     "wof:created": 1638547787,
     "wof:geomhash": "9cccd37636918a32bc446a92e7ba93ba",
@@ -81,12 +94,13 @@
     ],
     "wof:id": 1746779397,
     "wof:involves": [
+      1528104577,
       102527513,
       102530741,
       1159285413,
       1745882313
     ],
-    "wof:lastmodified": 1638547787,
+    "wof:lastmodified": 1638548540,
     "wof:name": "UA1007 (BOS-SFO)",
     "wof:parent_id": 1745882313,
     "wof:placetype": "custom",
