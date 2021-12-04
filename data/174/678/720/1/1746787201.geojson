@@ -2,10 +2,12 @@
   "id": 1746787201,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-12-03",
+    "date:cessation_upper": "2021-12-03",
     "date:inception_lower": "2021-12-03",
     "date:inception_upper": "2021-12-03",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-12-03",
+    "edtf:cessation": "2021-12-03T12:30:00Z",
+    "edtf:inception": "2021-12-03T09:07:00Z",
     "flysfo:actual_timestamp": 1638521640,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-12-03",
@@ -21,9 +23,11 @@
     "geom:latitude": 33.797588,
     "geom:longitude": -108.8546935,
     "iata:airline": "UA",
+    "icao:aircraft": "B739",
     "icao:airline": "UAL",
     "lbl:latitude": 37.619124,
     "lbl:longitude": -122.383949,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102534097,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,7 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "swim:tail_number": "N37466",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +53,10 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "9803068",
+      "swim:gufi": "KO23201600"
+    },
     "wof:country": "US",
     "wof:created": 1638634836,
     "wof:geomhash": "4d8eca8dfd12d13a56951180b27dbf13",
@@ -81,12 +90,13 @@
     ],
     "wof:id": 1746787201,
     "wof:involves": [
+      1377564285,
       102534097,
       102527513,
       1159285413,
       1745882313
     ],
-    "wof:lastmodified": 1638634836,
+    "wof:lastmodified": 1638634941,
     "wof:name": "UA2429 (SFO-IAH)",
     "wof:parent_id": 1745882313,
     "wof:placetype": "custom",

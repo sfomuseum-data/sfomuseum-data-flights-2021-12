@@ -2,10 +2,12 @@
   "id": 1746786935,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "1970-01-01",
+    "date:cessation_upper": "1970-01-01",
     "date:inception_lower": "2021-12-03",
     "date:inception_upper": "2021-12-03",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-12-03",
+    "edtf:cessation": "1970-01-01T00:00:00Z",
+    "edtf:inception": "2021-12-03T09:32:12-08:00",
     "flysfo:actual_timestamp": 1638581100,
     "flysfo:airline": "WN",
     "flysfo:date": "2021-12-03",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.907347,
     "geom:longitude": -120.3621325,
     "iata:airline": "WN",
+    "icao:aircraft": "B737",
     "icao:airline": "SWA",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289869,
     "sfomuseum:airline_id": 1159285591,
     "sfomuseum:arrival_id": 102532771,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N469WN",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -81,12 +90,13 @@
     ],
     "wof:id": 1746786935,
     "wof:involves": [
+      1159289869,
       102532771,
       102527513,
       1159285591,
       1745882155
     ],
-    "wof:lastmodified": 1638634765,
+    "wof:lastmodified": 1638634932,
     "wof:name": "WN590 (SFO-BUR)",
     "wof:parent_id": 1745882155,
     "wof:placetype": "custom",

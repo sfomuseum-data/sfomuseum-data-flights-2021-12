@@ -2,10 +2,12 @@
   "id": 1746784997,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2021-12-03",
-    "date:inception_upper": "2021-12-03",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-12-03",
+    "date:cessation_lower": "2021-12-03",
+    "date:cessation_upper": "2021-12-03",
+    "date:inception_lower": "2021-12-04",
+    "date:inception_upper": "2021-12-04",
+    "edtf:cessation": "2021-12-03T14:12:30-08:00",
+    "edtf:inception": "2021-12-04T01:41:00Z",
     "flysfo:actual_timestamp": 1638598560,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-12-03",
@@ -21,9 +23,11 @@
     "geom:latitude": 29.475248999999998,
     "geom:longitude": -140.1446795,
     "iata:airline": "UA",
+    "icao:aircraft": "B77W",
     "icao:airline": "UAL",
     "lbl:latitude": 37.620534,
     "lbl:longitude": -122.388506,
+    "sfomuseum:aircraft_id": 1159289993,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102533997,
@@ -34,6 +38,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-approach"
+    ],
+    "swim:tail_number": "N2645U",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +56,9 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KO16843700"
+    },
     "wof:country": "US",
     "wof:created": 1638634274,
     "wof:geomhash": "1ad63fa22de9103ed4396c0ca683f63f",
@@ -84,9 +95,10 @@
       102527513,
       102533997,
       1159285413,
-      1745882275
+      1745882275,
+      1159289993
     ],
-    "wof:lastmodified": 1638634274,
+    "wof:lastmodified": 1638634937,
     "wof:name": "UA724 (HNL-SFO)",
     "wof:parent_id": 1745882275,
     "wof:placetype": "custom",
