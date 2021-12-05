@@ -2,10 +2,12 @@
   "id": 1746790473,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2021-12-04",
-    "date:inception_upper": "2021-12-04",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-12-04",
+    "date:cessation_lower": "2021-12-05",
+    "date:cessation_upper": "2021-12-05",
+    "date:inception_lower": "2021-12-05",
+    "date:inception_upper": "2021-12-05",
+    "edtf:cessation": "2021-12-05T05:41:00Z",
+    "edtf:inception": "2021-12-05T04:18:00Z",
     "flysfo:actual_timestamp": 1638676980,
     "flysfo:airline": "AS",
     "flysfo:date": "2021-12-04",
@@ -21,9 +23,11 @@
     "geom:latitude": 41.602067,
     "geom:longitude": -122.484166,
     "iata:airline": "AS",
+    "icao:aircraft": "A320",
     "icao:airline": "ASA",
     "lbl:latitude": 37.617092,
     "lbl:longitude": -122.381656,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102532251,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N855VA",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +58,9 @@
       1745882085,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "9887679"
+    },
     "wof:country": "US",
     "wof:created": 1638720888,
     "wof:geomhash": "a0e250e9237d15725a2a6f51d6b7a6b6",
@@ -81,12 +94,13 @@
     ],
     "wof:id": 1746790473,
     "wof:involves": [
+      1745882095,
+      1159292085,
       102532251,
       102527513,
-      1159283813,
-      1745882095
+      1159283813
     ],
-    "wof:lastmodified": 1638720888,
+    "wof:lastmodified": 1638721287,
     "wof:name": "AS1038 (SFO-PDX)",
     "wof:parent_id": 1745882095,
     "wof:placetype": "custom",

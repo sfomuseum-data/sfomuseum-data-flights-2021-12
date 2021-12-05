@@ -2,10 +2,12 @@
   "id": 1746791903,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-12-05",
+    "date:cessation_upper": "2021-12-05",
     "date:inception_lower": "2021-12-04",
     "date:inception_upper": "2021-12-04",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-12-04",
+    "edtf:cessation": "2021-12-05T09:57:00Z",
+    "edtf:inception": "2021-12-04T08:23:51-08:00",
     "flysfo:actual_timestamp": 1638662400,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-12-04",
@@ -21,9 +23,11 @@
     "geom:latitude": 44.5440385,
     "geom:longitude": -61.410693,
     "iata:airline": "UA",
+    "icao:aircraft": "B789",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159293215,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102556703,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N17963",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +57,10 @@
       1745882335,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "9875397",
+      "swim:gufi": "KO73678700"
+    },
     "wof:country": "US",
     "wof:created": 1638721264,
     "wof:geomhash": "86f41e039827d60bcd1a72801f72cbc2",
@@ -81,12 +94,13 @@
     ],
     "wof:id": 1746791903,
     "wof:involves": [
+      1159293215,
       102556703,
       102527513,
       1159285413,
       1745882429
     ],
-    "wof:lastmodified": 1638721264,
+    "wof:lastmodified": 1638721295,
     "wof:name": "UA901 (SFO-LHR)",
     "wof:parent_id": 1745882429,
     "wof:placetype": "custom",
