@@ -1,0 +1,75 @@
+{
+  "id": 1746790813,
+  "type": "Feature",
+  "properties": {
+    "date:inception_lower": "2021-12-04",
+    "date:inception_upper": "2021-12-04",
+    "edtf:cessation": "",
+    "edtf:inception": "2021-12-04",
+    "flysfo:actual_timestamp": 1638635520,
+    "flysfo:airline": "LH",
+    "flysfo:base_airline": "UA",
+    "flysfo:base_flight_number": "1699",
+    "flysfo:date": "2021-12-04",
+    "flysfo:estimated_timestamp": 1638636840,
+    "flysfo:event": "D",
+    "flysfo:flight_number": "LH7785",
+    "flysfo:gate": "E7",
+    "flysfo:journey": "SFO-ORD",
+    "flysfo:scheduled_timestamp": 1638635400,
+    "flysfo:timestamp": 1638636840,
+    "geom:area": 0,
+    "geom:bbox": "-122.370943,37.617990,-87.894364,41.983038",
+    "geom:latitude": 39.800514,
+    "geom:longitude": -105.1326535,
+    "iata:airline": "LH",
+    "iata:base_airline": "UA",
+    "icao:airline": "DLH",
+    "icao:base_airline": "UAL",
+    "lbl:latitude": 37.61799,
+    "lbl:longitude": -122.370943,
+    "sfomuseum:airline_id": 1159286015,
+    "sfomuseum:arrival_id": 102533631,
+    "sfomuseum:base_flight_id": "20211204-D-UAL-1699",
+    "sfomuseum:departure_id": 102527513,
+    "sfomuseum:flight_id": "20211204-D-DLH-7785",
+    "sfomuseum:flight_number": [
+      "DLH7785",
+      "LH7785"
+    ],
+    "sfomuseum:placetype": "flight",
+    "src:geom": "flysfo",
+    "wof:belongsto": [],
+    "wof:country": "US",
+    "wof:created": 1638720976,
+    "wof:geomhash": "7a75cc81bf790964b92a4927d3978f50",
+    "wof:hierarchy": [
+      {
+        "flight_id": 1746790813
+      }
+    ],
+    "wof:id": 1746790813,
+    "wof:involves": [
+      102533631,
+      102527513,
+      1159286015,
+      1745882309,
+      1159285413
+    ],
+    "wof:lastmodified": 1638720976,
+    "wof:name": "LH7785 (SFO-ORD)",
+    "wof:parent_id": -1,
+    "wof:placetype": "custom",
+    "wof:placetype_alt": "flight",
+    "wof:repo": "sfomuseum-data-flights-2021-12",
+    "wof:superseded_by": [],
+    "wof:supersedes": []
+  },
+  "bbox": [
+    -122.370943,
+    37.61799,
+    -87.894364,
+    41.983038
+  ],
+  "geometry": {"coordinates":[[-122.370943,37.61799],[-87.894364,41.983038]],"type":"MultiPoint"}
+}

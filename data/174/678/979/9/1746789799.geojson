@@ -1,0 +1,75 @@
+{
+  "id": 1746789799,
+  "type": "Feature",
+  "properties": {
+    "date:inception_lower": "2021-12-04",
+    "date:inception_upper": "2021-12-04",
+    "edtf:cessation": "",
+    "edtf:inception": "2021-12-04",
+    "flysfo:actual_timestamp": 1638662400,
+    "flysfo:airline": "VS",
+    "flysfo:base_airline": "KL",
+    "flysfo:base_flight_number": "605",
+    "flysfo:date": "2021-12-04",
+    "flysfo:estimated_timestamp": 1638648600,
+    "flysfo:event": "A",
+    "flysfo:flight_number": "VS6851",
+    "flysfo:gate": "",
+    "flysfo:journey": "AMS-SFO",
+    "flysfo:scheduled_timestamp": 1638648600,
+    "flysfo:timestamp": 1638662400,
+    "geom:area": 0,
+    "geom:bbox": "-122.370943,37.617990,4.782907,52.314791",
+    "geom:latitude": 44.9663905,
+    "geom:longitude": -58.794018,
+    "iata:airline": "VS",
+    "iata:base_airline": "KL",
+    "icao:airline": "VIR",
+    "icao:base_airline": "KLM",
+    "lbl:latitude": 37.61799,
+    "lbl:longitude": -122.370943,
+    "sfomuseum:airline_id": 1159285483,
+    "sfomuseum:arrival_id": 102527513,
+    "sfomuseum:base_flight_id": "20211204-A-KLM-605",
+    "sfomuseum:departure_id": 102542801,
+    "sfomuseum:flight_id": "20211204-A-VIR-6851",
+    "sfomuseum:flight_number": [
+      "VIR6851",
+      "VS6851"
+    ],
+    "sfomuseum:placetype": "flight",
+    "src:geom": "flysfo",
+    "wof:belongsto": [],
+    "wof:country": "US",
+    "wof:created": 1638720702,
+    "wof:geomhash": "bfe9b4dfbd612ca8de6bd9460273f90d",
+    "wof:hierarchy": [
+      {
+        "flight_id": 1746789799
+      }
+    ],
+    "wof:id": 1746789799,
+    "wof:involves": [
+      102527513,
+      102542801,
+      1159285483,
+      -1,
+      1159284613
+    ],
+    "wof:lastmodified": 1638720702,
+    "wof:name": "VS6851 (AMS-SFO)",
+    "wof:parent_id": -1,
+    "wof:placetype": "custom",
+    "wof:placetype_alt": "flight",
+    "wof:repo": "sfomuseum-data-flights-2021-12",
+    "wof:superseded_by": [],
+    "wof:supersedes": []
+  },
+  "bbox": [
+    -122.370943,
+    37.61799,
+    4.782907,
+    52.314791
+  ],
+  "geometry": {"coordinates":[[4.782907,52.314791],[-122.370943,37.61799]],"type":"MultiPoint"}
+}
