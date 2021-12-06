@@ -2,10 +2,12 @@
   "id": 1746793941,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2021-12-05",
-    "date:inception_upper": "2021-12-05",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-12-05",
+    "date:cessation_lower": "2021-12-05",
+    "date:cessation_upper": "2021-12-05",
+    "date:inception_lower": "2021-12-06",
+    "date:inception_upper": "2021-12-06",
+    "edtf:cessation": "2021-12-05T13:48:40-08:00",
+    "edtf:inception": "2021-12-06T00:22:00Z",
     "flysfo:actual_timestamp": 1638748800,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-12-05",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.1546165,
     "geom:longitude": -98.2742345,
     "iata:airline": "UA",
+    "icao:aircraft": "B789",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159293215,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102530049,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N24973",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +57,10 @@
       1745882335,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "10027762",
+      "swim:gufi": "KN74535100"
+    },
     "wof:country": "US",
     "wof:created": 1638806992,
     "wof:geomhash": "5afbf99c4360a00cfc0890f48cccf304",
@@ -81,12 +94,13 @@
     ],
     "wof:id": 1746793941,
     "wof:involves": [
+      1745882431,
+      1159293215,
       102527513,
       102530049,
-      1159285413,
-      1745882431
+      1159285413
     ],
-    "wof:lastmodified": 1638806992,
+    "wof:lastmodified": 1638807757,
     "wof:name": "UA1545 (EWR-SFO)",
     "wof:parent_id": 1745882431,
     "wof:placetype": "custom",

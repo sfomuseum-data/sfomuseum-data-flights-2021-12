@@ -2,10 +2,12 @@
   "id": 1746794081,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-12-06",
+    "date:cessation_upper": "2021-12-06",
     "date:inception_lower": "2021-12-05",
     "date:inception_upper": "2021-12-05",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-12-05",
+    "edtf:cessation": "2021-12-05T23:21:06-08:00",
+    "edtf:inception": "2021-12-05T14:22:00Z",
     "flysfo:actual_timestamp": 1638718620,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-12-05",
@@ -21,9 +23,11 @@
     "geom:latitude": 40.868524,
     "geom:longitude": -122.79198650000001,
     "iata:airline": "UA",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61776,
     "lbl:longitude": -122.3918,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102533927,
@@ -34,6 +38,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-approach"
+    ],
+    "swim:tail_number": "N470UA",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +56,10 @@
       1745882335,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "9987658",
+      "swim:gufi": "KS44171100"
+    },
     "wof:country": "US",
     "wof:created": 1638807029,
     "wof:geomhash": "68b06bbd791163721a20ab955d143e55",
@@ -84,9 +96,10 @@
       102527513,
       102533927,
       1159285413,
-      1745882411
+      1745882411,
+      1159292085
     ],
-    "wof:lastmodified": 1638807029,
+    "wof:lastmodified": 1638807757,
     "wof:name": "UA285 (EUG-SFO)",
     "wof:parent_id": 1745882411,
     "wof:placetype": "custom",

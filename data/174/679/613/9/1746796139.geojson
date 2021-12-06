@@ -2,10 +2,12 @@
   "id": 1746796139,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-12-05",
+    "date:cessation_upper": "2021-12-05",
     "date:inception_lower": "2021-12-05",
     "date:inception_upper": "2021-12-05",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-12-05",
+    "edtf:cessation": "2021-12-05T18:25:52Z",
+    "edtf:inception": "2021-12-05T17:35:00Z",
     "flysfo:actual_timestamp": 1638748800,
     "flysfo:airline": "WN",
     "flysfo:date": "2021-12-05",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.907347,
     "geom:longitude": -120.3621325,
     "iata:airline": "WN",
+    "icao:aircraft": "B737",
     "icao:airline": "SWA",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289869,
     "sfomuseum:airline_id": 1159285591,
     "sfomuseum:arrival_id": 102532771,
     "sfomuseum:departure_id": 102527513,
@@ -34,7 +38,14 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route"
+    ],
+    "swim:tail_number": "N267WN",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "10003967"
+    },
     "wof:country": "US",
     "wof:created": 1638807574,
     "wof:geomhash": "5b5841a3ebf3c57d9843115edfb8ee6b",
@@ -45,12 +56,12 @@
     ],
     "wof:id": 1746796139,
     "wof:involves": [
+      1159289869,
       102532771,
       102527513,
-      1159285591,
-      -1
+      1159285591
     ],
-    "wof:lastmodified": 1638807574,
+    "wof:lastmodified": 1638807750,
     "wof:name": "WN4450 (SFO-BUR)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

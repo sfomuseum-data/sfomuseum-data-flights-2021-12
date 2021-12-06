@@ -2,10 +2,12 @@
   "id": 1746796327,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-12-05",
+    "date:cessation_upper": "2021-12-05",
     "date:inception_lower": "2021-12-05",
     "date:inception_upper": "2021-12-05",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-12-05",
+    "edtf:cessation": "2021-12-05T20:23:00Z",
+    "edtf:inception": "2021-12-05T19:06:00Z",
     "flysfo:actual_timestamp": 1638748800,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-12-05",
@@ -21,9 +23,11 @@
     "geom:latitude": 41.602067,
     "geom:longitude": -122.484166,
     "iata:airline": "UA",
+    "icao:aircraft": "B38M",
     "icao:airline": "UAL",
     "lbl:latitude": 37.619451,
     "lbl:longitude": -122.384404,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102532251,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N17265",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +57,10 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "10011338",
+      "swim:gufi": "KO63847100"
+    },
     "wof:country": "US",
     "wof:created": 1638807626,
     "wof:geomhash": "a0e250e9237d15725a2a6f51d6b7a6b6",
@@ -81,12 +94,13 @@
     ],
     "wof:id": 1746796327,
     "wof:involves": [
+      1528104575,
       102532251,
       102527513,
       1159285413,
       1745882315
     ],
-    "wof:lastmodified": 1638807626,
+    "wof:lastmodified": 1638807751,
     "wof:name": "UA1942 (SFO-PDX)",
     "wof:parent_id": 1745882315,
     "wof:placetype": "custom",

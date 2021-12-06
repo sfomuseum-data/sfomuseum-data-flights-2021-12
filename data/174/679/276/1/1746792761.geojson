@@ -2,10 +2,12 @@
   "id": 1746792761,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-12-05",
+    "date:cessation_upper": "2021-12-05",
     "date:inception_lower": "2021-12-05",
     "date:inception_upper": "2021-12-05",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-12-05",
+    "edtf:cessation": "2021-12-05T19:00:00Z",
+    "edtf:inception": "2021-12-05T15:35:00Z",
     "flysfo:actual_timestamp": 1638748800,
     "flysfo:airline": "AS",
     "flysfo:date": "2021-12-05",
@@ -21,9 +23,11 @@
     "geom:latitude": 33.9120825,
     "geom:longitude": -110.006986,
     "iata:airline": "AS",
+    "icao:aircraft": "A320",
     "icao:airline": "ASA",
     "lbl:latitude": 37.617532,
     "lbl:longitude": -122.382384,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102521851,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N849VA",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +58,9 @@
       1745882085,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "9992671"
+    },
     "wof:country": "US",
     "wof:created": 1638806681,
     "wof:geomhash": "62f9f5a2734b9c5938b0b415e9e4a515",
@@ -81,12 +94,13 @@
     ],
     "wof:id": 1746792761,
     "wof:involves": [
-      102527513,
       102521851,
       1159283813,
-      1745882121
+      1745882121,
+      1159292085,
+      102527513
     ],
-    "wof:lastmodified": 1638806681,
+    "wof:lastmodified": 1638807754,
     "wof:name": "AS1378 (AUS-SFO)",
     "wof:parent_id": 1745882121,
     "wof:placetype": "custom",
