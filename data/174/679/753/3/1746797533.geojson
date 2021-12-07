@@ -2,10 +2,12 @@
   "id": 1746797533,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2021-12-06",
-    "date:inception_upper": "2021-12-06",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-12-06",
+    "date:cessation_lower": "2021-12-07",
+    "date:cessation_upper": "2021-12-07",
+    "date:inception_lower": "2021-12-07",
+    "date:inception_upper": "2021-12-07",
+    "edtf:cessation": "2021-12-07T01:27:17Z",
+    "edtf:inception": "2021-12-07T00:27:00Z",
     "flysfo:actual_timestamp": 1638835200,
     "flysfo:airline": "AS",
     "flysfo:date": "2021-12-06",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.780291500000004,
     "geom:longitude": -120.38022649999999,
     "iata:airline": "AS",
+    "icao:aircraft": "B738",
     "icao:airline": "ASA",
     "lbl:latitude": 37.616969,
     "lbl:longitude": -122.381363,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102533795,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N581AS",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +58,9 @@
       1745882085,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "10035078"
+    },
     "wof:country": "US",
     "wof:created": 1638893079,
     "wof:geomhash": "f16008bc2ad68c6d1bc593247c6c74a9",
@@ -81,12 +94,13 @@
     ],
     "wof:id": 1746797533,
     "wof:involves": [
+      1159289871,
       102527513,
       102533795,
       1159283813,
       1745882097
     ],
-    "wof:lastmodified": 1638893079,
+    "wof:lastmodified": 1638894157,
     "wof:name": "AS1257 (LAX-SFO)",
     "wof:parent_id": 1745882097,
     "wof:placetype": "custom",

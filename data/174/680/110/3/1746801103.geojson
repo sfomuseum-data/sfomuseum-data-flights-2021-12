@@ -2,10 +2,12 @@
   "id": 1746801103,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-12-06",
+    "date:cessation_upper": "2021-12-06",
     "date:inception_lower": "2021-12-06",
     "date:inception_upper": "2021-12-06",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-12-06",
+    "edtf:cessation": "2021-12-06T19:35:00Z",
+    "edtf:inception": "2021-12-06T18:29:00Z",
     "flysfo:actual_timestamp": 1638835200,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-12-06",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.647857,
     "geom:longitude": -120.1186115,
     "iata:airline": "UA",
+    "icao:aircraft": "B738",
     "icao:airline": "UAL",
     "lbl:latitude": 37.618486,
     "lbl:longitude": -122.384457,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102534161,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N14214",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +57,10 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "10073650",
+      "swim:gufi": "KO53018200"
+    },
     "wof:country": "US",
     "wof:created": 1638894041,
     "wof:geomhash": "b700d5ae3794da4176af6b85f6cd6669",
@@ -84,9 +97,10 @@
       102534161,
       102527513,
       1159285413,
-      1745882303
+      1745882303,
+      1159289871
     ],
-    "wof:lastmodified": 1638894041,
+    "wof:lastmodified": 1638894160,
     "wof:name": "UA2096 (SFO-SNA)",
     "wof:parent_id": 1745882303,
     "wof:placetype": "custom",

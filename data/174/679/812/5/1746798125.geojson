@@ -2,10 +2,12 @@
   "id": 1746798125,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2021-12-06",
-    "date:inception_upper": "2021-12-06",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-12-06",
+    "date:cessation_lower": "2021-12-07",
+    "date:cessation_upper": "2021-12-07",
+    "date:inception_lower": "2021-12-07",
+    "date:inception_upper": "2021-12-07",
+    "edtf:cessation": "2021-12-07T05:42:50Z",
+    "edtf:inception": "2021-12-07T00:56:00Z",
     "flysfo:actual_timestamp": 1638856200,
     "flysfo:airline": "HA",
     "flysfo:date": "2021-12-06",
@@ -21,9 +23,11 @@
     "geom:latitude": 29.475248999999998,
     "geom:longitude": -140.1446795,
     "iata:airline": "HA",
+    "icao:aircraft": "A332",
     "icao:airline": "HAL",
     "lbl:latitude": 37.611565,
     "lbl:longitude": -122.389912,
+    "sfomuseum:aircraft_id": 1159289421,
     "sfomuseum:airline_id": 1159284489,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102533997,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N379HA",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +57,9 @@
       1745882335,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "10037052"
+    },
     "wof:country": "US",
     "wof:created": 1638893235,
     "wof:geomhash": "1ad63fa22de9103ed4396c0ca683f63f",
@@ -81,12 +93,13 @@
     ],
     "wof:id": 1746798125,
     "wof:involves": [
+      1159289421,
       102527513,
       102533997,
       1159284489,
       1745882391
     ],
-    "wof:lastmodified": 1638893235,
+    "wof:lastmodified": 1638894161,
     "wof:name": "HA12 (HNL-SFO)",
     "wof:parent_id": 1745882391,
     "wof:placetype": "custom",

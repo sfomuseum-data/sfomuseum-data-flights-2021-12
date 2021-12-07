@@ -2,10 +2,12 @@
   "id": 1746797519,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2021-12-06",
-    "date:inception_upper": "2021-12-06",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-12-06",
+    "date:cessation_lower": "2021-12-07",
+    "date:cessation_upper": "2021-12-07",
+    "date:inception_lower": "2021-12-07",
+    "date:inception_upper": "2021-12-07",
+    "edtf:cessation": "2021-12-07T07:28:00Z",
+    "edtf:inception": "2021-12-07T06:16:00Z",
     "flysfo:actual_timestamp": 1638862080,
     "flysfo:airline": "AS",
     "flysfo:date": "2021-12-06",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.175762,
     "geom:longitude": -119.778435,
     "iata:airline": "AS",
+    "icao:aircraft": "A320",
     "icao:airline": "ASA",
     "lbl:latitude": 37.617421,
     "lbl:longitude": -122.380916,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102528997,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N854VA",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +58,9 @@
       1745882085,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "10046373"
+    },
     "wof:country": "US",
     "wof:created": 1638893074,
     "wof:geomhash": "d1d4873ced1d6ea3128e45b0b2070718",
@@ -81,12 +94,13 @@
     ],
     "wof:id": 1746797519,
     "wof:involves": [
+      1159292085,
       102527513,
       102528997,
       1159283813,
       1745882107
     ],
-    "wof:lastmodified": 1638893074,
+    "wof:lastmodified": 1638894157,
     "wof:name": "AS1204 (SAN-SFO)",
     "wof:parent_id": 1745882107,
     "wof:placetype": "custom",

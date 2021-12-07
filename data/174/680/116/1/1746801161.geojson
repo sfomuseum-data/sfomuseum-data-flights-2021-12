@@ -2,10 +2,12 @@
   "id": 1746801161,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2021-12-06",
-    "date:inception_upper": "2021-12-06",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-12-06",
+    "date:cessation_lower": "2021-12-07",
+    "date:cessation_upper": "2021-12-07",
+    "date:inception_lower": "2021-12-07",
+    "date:inception_upper": "2021-12-07",
+    "edtf:cessation": "2021-12-07T06:13:56Z",
+    "edtf:inception": "2021-12-07T03:01:00Z",
     "flysfo:actual_timestamp": 1638835200,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-12-06",
@@ -21,9 +23,11 @@
     "geom:latitude": 33.797588,
     "geom:longitude": -108.8546935,
     "iata:airline": "UA",
+    "icao:aircraft": "B738",
     "icao:airline": "UAL",
     "lbl:latitude": 37.618161,
     "lbl:longitude": -122.384735,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102534097,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N78506",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +58,10 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "10043335",
+      "swim:gufi": "KO04703300"
+    },
     "wof:country": "US",
     "wof:created": 1638894056,
     "wof:geomhash": "4d8eca8dfd12d13a56951180b27dbf13",
@@ -81,12 +95,13 @@
     ],
     "wof:id": 1746801161,
     "wof:involves": [
+      1159289871,
       102534097,
       102527513,
       1159285413,
       1745882301
     ],
-    "wof:lastmodified": 1638894056,
+    "wof:lastmodified": 1638894161,
     "wof:name": "UA2331 (SFO-IAH)",
     "wof:parent_id": 1745882301,
     "wof:placetype": "custom",

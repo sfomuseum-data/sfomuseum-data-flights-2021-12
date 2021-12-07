@@ -2,10 +2,12 @@
   "id": 1746798809,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-12-06",
+    "date:cessation_upper": "2021-12-06",
     "date:inception_lower": "2021-12-06",
     "date:inception_upper": "2021-12-06",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-12-06",
+    "edtf:cessation": "2021-12-06T15:05:00Z",
+    "edtf:inception": "2021-12-06T14:06:00Z",
     "flysfo:actual_timestamp": 1638835200,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-12-06",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.838961999999995,
     "geom:longitude": -119.97934599999999,
     "iata:airline": "UA",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "lbl:latitude": 37.619124,
     "lbl:longitude": -122.383949,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102533575,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N894UA",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +57,10 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "10061393",
+      "swim:gufi": "KL45147200"
+    },
     "wof:country": "US",
     "wof:created": 1638893437,
     "wof:geomhash": "094b2380067f0814bdd38962ab53e3d3",
@@ -81,12 +94,13 @@
     ],
     "wof:id": 1746798809,
     "wof:involves": [
+      1745882313,
+      1159289407,
       102527513,
       102533575,
-      1159285413,
-      1745882313
+      1159285413
     ],
-    "wof:lastmodified": 1638893437,
+    "wof:lastmodified": 1638894167,
     "wof:name": "UA2094 (ONT-SFO)",
     "wof:parent_id": 1745882313,
     "wof:placetype": "custom",

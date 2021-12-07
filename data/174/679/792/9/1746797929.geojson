@@ -2,10 +2,12 @@
   "id": 1746797929,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2021-12-06",
-    "date:inception_upper": "2021-12-06",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-12-06",
+    "date:cessation_lower": "2021-12-06",
+    "date:cessation_upper": "2021-12-06",
+    "date:inception_lower": "2021-12-07",
+    "date:inception_upper": "2021-12-07",
+    "edtf:cessation": "2021-12-06T11:54:07-08:00",
+    "edtf:inception": "2021-12-07T00:26:00Z",
     "flysfo:actual_timestamp": 1638835200,
     "flysfo:airline": "DL",
     "flysfo:date": "2021-12-06",
@@ -21,9 +23,11 @@
     "geom:latitude": 33.576414,
     "geom:longitude": -110.4218635,
     "iata:airline": "DL",
+    "icao:aircraft": "B752",
     "icao:airline": "DAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289939,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102527373,
@@ -34,7 +38,16 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N654DL",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "10104822",
+      "swim:gufi": "KH80162200"
+    },
     "wof:country": "US",
     "wof:created": 1638893184,
     "wof:geomhash": "d45c6baaf0d56697f52acbb8a9e14867",
@@ -45,12 +58,12 @@
     ],
     "wof:id": 1746797929,
     "wof:involves": [
+      1159289939,
       102527513,
       102527373,
-      1159284261,
-      -1
+      1159284261
     ],
-    "wof:lastmodified": 1638893184,
+    "wof:lastmodified": 1638894160,
     "wof:name": "DL8844 (SAT-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
