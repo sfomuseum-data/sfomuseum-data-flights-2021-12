@@ -2,10 +2,12 @@
   "id": 1746802623,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-12-07",
+    "date:cessation_upper": "2021-12-07",
     "date:inception_lower": "2021-12-07",
     "date:inception_upper": "2021-12-07",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-12-07",
+    "edtf:cessation": "2021-12-07T20:03:20Z",
+    "edtf:inception": "2021-12-07T09:32:00Z",
     "flysfo:actual_timestamp": 1638907680,
     "flysfo:airline": "LH",
     "flysfo:date": "2021-12-07",
@@ -48,6 +50,9 @@
       1745882335,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "10122591"
+    },
     "wof:country": "US",
     "wof:created": 1638979565,
     "wof:geomhash": "ec6660f1f317e7fe021c7c410168f722",
@@ -86,7 +91,7 @@
       1159286015,
       1745882431
     ],
-    "wof:lastmodified": 1638979565,
+    "wof:lastmodified": 1638980422,
     "wof:name": "LH454 (FRA-SFO)",
     "wof:parent_id": 1745882431,
     "wof:placetype": "custom",

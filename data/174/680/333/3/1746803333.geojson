@@ -2,10 +2,12 @@
   "id": 1746803333,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-12-07",
+    "date:cessation_upper": "2021-12-07",
     "date:inception_lower": "2021-12-07",
     "date:inception_upper": "2021-12-07",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-12-07",
+    "edtf:cessation": "2021-12-07T16:57:00Z",
+    "edtf:inception": "2021-12-07T15:52:00Z",
     "flysfo:actual_timestamp": 1638896460,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-12-07",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.175762,
     "geom:longitude": -119.778435,
     "iata:airline": "UA",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "lbl:latitude": 37.619531,
     "lbl:longitude": -122.384262,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102528997,
@@ -48,6 +52,10 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "10143379",
+      "swim:gufi": "KL49845300"
+    },
     "wof:country": "US",
     "wof:created": 1638979742,
     "wof:geomhash": "d1d4873ced1d6ea3128e45b0b2070718",
@@ -81,12 +89,13 @@
     ],
     "wof:id": 1746803333,
     "wof:involves": [
+      1745882319,
+      1159292085,
       102527513,
       102528997,
-      1159285413,
-      1745882319
+      1159285413
     ],
-    "wof:lastmodified": 1638979742,
+    "wof:lastmodified": 1638980423,
     "wof:name": "UA1236 (SAN-SFO)",
     "wof:parent_id": 1745882319,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 1746801689,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-12-07",
+    "date:cessation_upper": "2021-12-07",
     "date:inception_lower": "2021-12-07",
     "date:inception_upper": "2021-12-07",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-12-07",
+    "edtf:cessation": "2021-12-07T21:12:44Z",
+    "edtf:inception": "2021-12-07T11:58:58Z",
     "flysfo:actual_timestamp": 1638912480,
     "flysfo:airline": "OZ",
     "flysfo:date": "2021-12-07",
@@ -48,6 +50,9 @@
       1745882335,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "10127379"
+    },
     "wof:country": "US",
     "wof:created": 1638979307,
     "wof:geomhash": "83e2c60a8819c96e9fa3721059c5eac5",
@@ -86,7 +91,7 @@
       1159283917,
       1745882413
     ],
-    "wof:lastmodified": 1638979307,
+    "wof:lastmodified": 1638980420,
     "wof:name": "OZ212 (ICN-SFO)",
     "wof:parent_id": 1745882413,
     "wof:placetype": "custom",

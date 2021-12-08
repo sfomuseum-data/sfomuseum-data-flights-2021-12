@@ -2,10 +2,12 @@
   "id": 1746803831,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-12-07",
+    "date:cessation_upper": "2021-12-07",
     "date:inception_lower": "2021-12-07",
     "date:inception_upper": "2021-12-07",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-12-07",
+    "edtf:cessation": "2021-12-07T17:15:00Z",
+    "edtf:inception": "2021-12-07T13:36:00Z",
     "flysfo:actual_timestamp": 1638883740,
     "flysfo:airline": "AA",
     "flysfo:date": "2021-12-07",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.800514,
     "geom:longitude": -105.1326535,
     "iata:airline": "AA",
+    "icao:aircraft": "A321",
     "icao:airline": "AAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289411,
     "sfomuseum:airline_id": 1159283849,
     "sfomuseum:arrival_id": 102533631,
     "sfomuseum:departure_id": 102527513,
@@ -48,6 +52,10 @@
       1745882137,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "10134053",
+      "swim:gufi": "KO44145300"
+    },
     "wof:country": "US",
     "wof:created": 1638979868,
     "wof:geomhash": "7a75cc81bf790964b92a4927d3978f50",
@@ -81,12 +89,13 @@
     ],
     "wof:id": 1746803831,
     "wof:involves": [
+      1745882185,
+      1159289411,
       102533631,
       102527513,
-      1159283849,
-      1745882185
+      1159283849
     ],
-    "wof:lastmodified": 1638979868,
+    "wof:lastmodified": 1638980423,
     "wof:name": "AA2614 (SFO-ORD)",
     "wof:parent_id": 1745882185,
     "wof:placetype": "custom",

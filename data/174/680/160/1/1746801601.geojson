@@ -2,10 +2,12 @@
   "id": 1746801601,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-12-07",
+    "date:cessation_upper": "2021-12-07",
     "date:inception_lower": "2021-12-07",
     "date:inception_upper": "2021-12-07",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-12-07",
+    "edtf:cessation": "2021-12-07T20:50:38Z",
+    "edtf:inception": "2021-12-07T19:15:00Z",
     "flysfo:actual_timestamp": 1638910620,
     "flysfo:airline": "AA",
     "flysfo:date": "2021-12-07",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.525337,
     "geom:longitude": -117.19416749999999,
     "iata:airline": "AA",
+    "icao:aircraft": "A320",
     "icao:airline": "AAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159283849,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102526751,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N668AW",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +57,10 @@
       1745882137,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "10157186",
+      "swim:gufi": "KA64179300"
+    },
     "wof:country": "US",
     "wof:created": 1638979281,
     "wof:geomhash": "c9fdc5df38b6a105de4fe30ae6ada830",
@@ -81,12 +94,13 @@
     ],
     "wof:id": 1746801601,
     "wof:involves": [
-      102527513,
       102526751,
       1159283849,
-      1745882193
+      1745882193,
+      1159292085,
+      102527513
     ],
-    "wof:lastmodified": 1638979281,
+    "wof:lastmodified": 1638980414,
     "wof:name": "AA1210 (PHX-SFO)",
     "wof:parent_id": 1745882193,
     "wof:placetype": "custom",

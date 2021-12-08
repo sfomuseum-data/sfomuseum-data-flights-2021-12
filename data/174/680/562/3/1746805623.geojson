@@ -2,10 +2,12 @@
   "id": 1746805623,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-12-07",
+    "date:cessation_upper": "2021-12-07",
     "date:inception_lower": "2021-12-07",
     "date:inception_upper": "2021-12-07",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-12-07",
+    "edtf:cessation": "2021-12-07T17:44:00Z",
+    "edtf:inception": "2021-12-07T16:37:00Z",
     "flysfo:actual_timestamp": 1638894360,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-12-07",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.175762,
     "geom:longitude": -119.778435,
     "iata:airline": "UA",
+    "icao:aircraft": "B739",
     "icao:airline": "UAL",
     "lbl:latitude": 37.619425,
     "lbl:longitude": -122.384028,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102528997,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,7 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "swim:tail_number": "N69888",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +53,10 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "10146783",
+      "swim:gufi": "KO46821300"
+    },
     "wof:country": "US",
     "wof:created": 1638980315,
     "wof:geomhash": "25f5345529d944df781e36098260a435",
@@ -81,12 +90,13 @@
     ],
     "wof:id": 1746805623,
     "wof:involves": [
+      1377564285,
       102528997,
       102527513,
       1159285413,
       1745882321
     ],
-    "wof:lastmodified": 1638980315,
+    "wof:lastmodified": 1638980419,
     "wof:name": "UA2047 (SFO-SAN)",
     "wof:parent_id": 1745882321,
     "wof:placetype": "custom",
