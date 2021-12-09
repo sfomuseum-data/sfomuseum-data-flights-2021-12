@@ -2,10 +2,12 @@
   "id": 1746808077,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-12-08",
+    "date:cessation_upper": "2021-12-08",
     "date:inception_lower": "2021-12-08",
     "date:inception_upper": "2021-12-08",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-12-08",
+    "edtf:cessation": "2021-12-08T16:44:00Z",
+    "edtf:inception": "2021-12-08T12:24:00Z",
     "flysfo:actual_timestamp": 1639008000,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-12-08",
@@ -21,9 +23,11 @@
     "geom:latitude": 38.674126,
     "geom:longitude": -104.324809,
     "iata:airline": "UA",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "lbl:latitude": 37.619367,
     "lbl:longitude": -122.38387,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102534155,
@@ -34,6 +38,7 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "swim:tail_number": "N802UA",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +53,9 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "10204166"
+    },
     "wof:country": "US",
     "wof:created": 1639066230,
     "wof:geomhash": "c95405ad82a47404b222d64c163ad7d9",
@@ -81,12 +89,13 @@
     ],
     "wof:id": 1746808077,
     "wof:involves": [
+      1159289407,
       102527513,
       102534155,
       1159285413,
       1745882317
     ],
-    "wof:lastmodified": 1639066230,
+    "wof:lastmodified": 1639066896,
     "wof:name": "UA500 (IND-SFO)",
     "wof:parent_id": 1745882317,
     "wof:placetype": "custom",
