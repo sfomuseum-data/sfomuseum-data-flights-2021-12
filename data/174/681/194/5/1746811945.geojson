@@ -2,10 +2,12 @@
   "id": 1746811945,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2021-12-09",
-    "date:inception_upper": "2021-12-09",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-12-09",
+    "date:cessation_lower": "2021-12-09",
+    "date:cessation_upper": "2021-12-09",
+    "date:inception_lower": "2021-12-10",
+    "date:inception_upper": "2021-12-10",
+    "edtf:cessation": "2021-12-09T07:53:57Z",
+    "edtf:inception": "2021-12-10T03:33:00Z",
     "flysfo:actual_timestamp": 1639094400,
     "flysfo:airline": "AS",
     "flysfo:date": "2021-12-09",
@@ -21,9 +23,11 @@
     "geom:latitude": 29.256470999999998,
     "geom:longitude": -139.40440999999998,
     "iata:airline": "AS",
+    "icao:aircraft": "B738",
     "icao:airline": "ASA",
     "lbl:latitude": 37.616987,
     "lbl:longitude": -122.382479,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102532929,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N590AS",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +57,9 @@
       1745882085,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "10273088"
+    },
     "wof:country": "US",
     "wof:created": 1639152321,
     "wof:geomhash": "e4ae4c60ed0a76df38dbcfaaa5dd6a55",
@@ -81,12 +93,13 @@
     ],
     "wof:id": 1746811945,
     "wof:involves": [
+      1159289871,
       102527513,
       102532929,
       1159283813,
       1745882089
     ],
-    "wof:lastmodified": 1639152321,
+    "wof:lastmodified": 1639153404,
     "wof:name": "AS244 (OGG-SFO)",
     "wof:parent_id": 1745882089,
     "wof:placetype": "custom",

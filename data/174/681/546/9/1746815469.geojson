@@ -2,10 +2,12 @@
   "id": 1746815469,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-12-09",
+    "date:cessation_upper": "2021-12-09",
     "date:inception_lower": "2021-12-09",
     "date:inception_upper": "2021-12-09",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-12-09",
+    "edtf:cessation": "2021-12-09T19:17:21Z",
+    "edtf:inception": "2021-12-09T18:07:00Z",
     "flysfo:actual_timestamp": 1639072680,
     "flysfo:airline": "WN",
     "flysfo:date": "2021-12-09",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.175762,
     "geom:longitude": -119.778435,
     "iata:airline": "WN",
+    "icao:aircraft": "B737",
     "icao:airline": "SWA",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289869,
     "sfomuseum:airline_id": 1159285591,
     "sfomuseum:arrival_id": 102528997,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,7 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "swim:tail_number": "N7713A",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +53,9 @@
       1745882137,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "10315364"
+    },
     "wof:country": "US",
     "wof:created": 1639153223,
     "wof:geomhash": "25f5345529d944df781e36098260a435",
@@ -81,12 +89,13 @@
     ],
     "wof:id": 1746815469,
     "wof:involves": [
+      1159289869,
       102528997,
       102527513,
       1159285591,
       1745882153
     ],
-    "wof:lastmodified": 1639153223,
+    "wof:lastmodified": 1639153401,
     "wof:name": "WN5278 (SFO-SAN)",
     "wof:parent_id": 1745882153,
     "wof:placetype": "custom",

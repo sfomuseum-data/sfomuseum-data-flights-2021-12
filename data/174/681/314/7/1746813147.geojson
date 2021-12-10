@@ -2,10 +2,12 @@
   "id": 1746813147,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2021-12-09",
-    "date:inception_upper": "2021-12-09",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-12-09",
+    "date:cessation_lower": "2021-12-09",
+    "date:cessation_upper": "2021-12-09",
+    "date:inception_lower": "2021-12-10",
+    "date:inception_upper": "2021-12-10",
+    "edtf:cessation": "2021-12-09T13:38:45-08:00",
+    "edtf:inception": "2021-12-10T04:08:00Z",
     "flysfo:actual_timestamp": 1639114920,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-12-09",
@@ -21,9 +23,11 @@
     "geom:latitude": 42.529906499999996,
     "geom:longitude": -122.3376055,
     "iata:airline": "UA",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "lbl:latitude": 37.619451,
     "lbl:longitude": -122.384404,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102533269,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N809UA",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +58,10 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "10274744",
+      "swim:gufi": "KS05307600"
+    },
     "wof:country": "US",
     "wof:created": 1639152632,
     "wof:geomhash": "3123a4aff4021144fa8973299956ba97",
@@ -84,9 +98,10 @@
       102527513,
       102533269,
       1159285413,
-      1745882315
+      1745882315,
+      1159289407
     ],
-    "wof:lastmodified": 1639152632,
+    "wof:lastmodified": 1639153394,
     "wof:name": "UA1074 (SEA-SFO)",
     "wof:parent_id": 1745882315,
     "wof:placetype": "custom",
