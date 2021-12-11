@@ -2,10 +2,12 @@
   "id": 1746820513,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-12-10",
+    "date:cessation_upper": "2021-12-10",
     "date:inception_lower": "2021-12-10",
     "date:inception_upper": "2021-12-10",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-12-10",
+    "edtf:cessation": "2021-12-10T10:51:00Z",
+    "edtf:inception": "2021-12-10T07:11:00Z",
     "flysfo:actual_timestamp": 1639180800,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-12-10",
@@ -21,9 +23,11 @@
     "geom:latitude": 38.674126,
     "geom:longitude": -104.324809,
     "iata:airline": "UA",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "lbl:latitude": 37.618339,
     "lbl:longitude": -122.387219,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102534155,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,7 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "swim:tail_number": "N423UA",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +53,10 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "10366132",
+      "swim:gufi": "KO14823600"
+    },
     "wof:country": "US",
     "wof:created": 1639239590,
     "wof:geomhash": "75b67362ad403f806ec665af17b684aa",
@@ -81,12 +90,13 @@
     ],
     "wof:id": 1746820513,
     "wof:involves": [
+      1159292085,
       102534155,
       102527513,
       1159285413,
       1745882255
     ],
-    "wof:lastmodified": 1639239590,
+    "wof:lastmodified": 1639239702,
     "wof:name": "UA2005 (SFO-IND)",
     "wof:parent_id": 1745882255,
     "wof:placetype": "custom",

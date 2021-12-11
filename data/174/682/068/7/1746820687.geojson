@@ -2,10 +2,12 @@
   "id": 1746820687,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-12-10",
+    "date:cessation_upper": "2021-12-10",
     "date:inception_lower": "2021-12-10",
     "date:inception_upper": "2021-12-10",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-12-10",
+    "edtf:cessation": "2021-12-10T07:42:24Z",
+    "edtf:inception": "2021-12-10T07:07:00Z",
     "flysfo:actual_timestamp": 1639180800,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-12-10",
@@ -21,9 +23,11 @@
     "geom:latitude": 38.5616045,
     "geom:longitude": -121.07155499999999,
     "iata:airline": "UA",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "lbl:latitude": 37.618578,
     "lbl:longitude": -122.385434,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102525535,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,7 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "swim:tail_number": "N816UA",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +53,9 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "10365940"
+    },
     "wof:country": "US",
     "wof:created": 1639239633,
     "wof:geomhash": "414447526a1ddeb77713c60c4ab5a7e4",
@@ -81,12 +89,13 @@
     ],
     "wof:id": 1746820687,
     "wof:involves": [
+      1159289407,
       102525535,
       102527513,
       1159285413,
       1745882245
     ],
-    "wof:lastmodified": 1639239633,
+    "wof:lastmodified": 1639239703,
     "wof:name": "UA532 (SFO-RNO)",
     "wof:parent_id": 1745882245,
     "wof:placetype": "custom",

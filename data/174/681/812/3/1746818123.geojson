@@ -2,10 +2,12 @@
   "id": 1746818123,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-12-10",
+    "date:cessation_upper": "2021-12-10",
     "date:inception_lower": "2021-12-10",
     "date:inception_upper": "2021-12-10",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-12-10",
+    "edtf:cessation": "2021-12-10T06:19:32Z",
+    "edtf:inception": "2021-12-10T01:30:00Z",
     "flysfo:actual_timestamp": 1639180800,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-12-10",
@@ -48,6 +50,9 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "10350778"
+    },
     "wof:country": "US",
     "wof:created": 1639238985,
     "wof:geomhash": "46fccc0e56242535ccfd5ecb278f9a75",
@@ -86,7 +91,7 @@
       1159285413,
       1745882285
     ],
-    "wof:lastmodified": 1639238985,
+    "wof:lastmodified": 1639239707,
     "wof:name": "UA1563 (LIH-SFO)",
     "wof:parent_id": 1745882285,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 1746818225,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-12-10",
+    "date:cessation_upper": "2021-12-10",
     "date:inception_lower": "2021-12-10",
     "date:inception_upper": "2021-12-10",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-12-10",
+    "edtf:cessation": "2021-12-10T05:22:00Z",
+    "edtf:inception": "2021-12-10T00:46:00Z",
     "flysfo:actual_timestamp": 1639180800,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-12-10",
@@ -21,9 +23,11 @@
     "geom:latitude": 36.8721885,
     "geom:longitude": -104.5237975,
     "iata:airline": "UA",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "lbl:latitude": 37.619451,
     "lbl:longitude": -122.384404,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102525035,
@@ -34,6 +38,7 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "swim:tail_number": "N473UA",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +53,10 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "10348535",
+      "swim:gufi": "KM74811500"
+    },
     "wof:country": "US",
     "wof:created": 1639239012,
     "wof:geomhash": "462e561a68f133085fb895c49eddc748",
@@ -81,12 +90,13 @@
     ],
     "wof:id": 1746818225,
     "wof:involves": [
+      1159292085,
       102527513,
       102525035,
       1159285413,
       1745882315
     ],
-    "wof:lastmodified": 1639239012,
+    "wof:lastmodified": 1639239707,
     "wof:name": "UA241 (BNA-SFO)",
     "wof:parent_id": 1745882315,
     "wof:placetype": "custom",

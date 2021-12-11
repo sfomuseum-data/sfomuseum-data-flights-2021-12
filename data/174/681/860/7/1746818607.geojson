@@ -2,10 +2,12 @@
   "id": 1746818607,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-12-11",
+    "date:cessation_upper": "2021-12-11",
     "date:inception_lower": "2021-12-10",
     "date:inception_upper": "2021-12-10",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-12-10",
+    "edtf:cessation": "2021-12-11T02:05:00Z",
+    "edtf:inception": "2021-12-10T05:35:24-08:00",
     "flysfo:actual_timestamp": 1639180800,
     "flysfo:airline": "AA",
     "flysfo:date": "2021-12-10",
@@ -21,9 +23,11 @@
     "geom:latitude": 31.70423,
     "geom:longitude": -101.3334745,
     "iata:airline": "AA",
+    "icao:aircraft": "B38M",
     "icao:airline": "AAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159283849,
     "sfomuseum:arrival_id": 102531023,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N313SB",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +57,9 @@
       1745882137,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "10421402"
+    },
     "wof:country": "US",
     "wof:created": 1639239111,
     "wof:geomhash": "05e474f4bf1eb5ae110c20d94aac828f",
@@ -84,9 +96,10 @@
       102531023,
       102527513,
       1159283849,
-      1745882177
+      1745882177,
+      1528104575
     ],
-    "wof:lastmodified": 1639239111,
+    "wof:lastmodified": 1639239708,
     "wof:name": "AA2045 (SFO-MIA)",
     "wof:parent_id": 1745882177,
     "wof:placetype": "custom",

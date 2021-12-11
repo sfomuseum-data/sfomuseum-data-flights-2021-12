@@ -2,10 +2,12 @@
   "id": 1746817465,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-12-10",
+    "date:cessation_upper": "2021-12-10",
     "date:inception_lower": "2021-12-10",
     "date:inception_upper": "2021-12-10",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-12-10",
+    "edtf:cessation": "2021-12-10T05:53:11Z",
+    "edtf:inception": "2021-12-10T00:56:00Z",
     "flysfo:actual_timestamp": 1639180800,
     "flysfo:airline": "HA",
     "flysfo:date": "2021-12-10",
@@ -48,6 +50,9 @@
       1745882335,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "10351415"
+    },
     "wof:country": "US",
     "wof:created": 1639238819,
     "wof:geomhash": "1ad63fa22de9103ed4396c0ca683f63f",
@@ -86,7 +91,7 @@
       1159284489,
       1745882391
     ],
-    "wof:lastmodified": 1639238819,
+    "wof:lastmodified": 1639239706,
     "wof:name": "HA12 (HNL-SFO)",
     "wof:parent_id": 1745882391,
     "wof:placetype": "custom",

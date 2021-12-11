@@ -2,10 +2,12 @@
   "id": 1746818177,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-12-10",
+    "date:cessation_upper": "2021-12-10",
     "date:inception_lower": "2021-12-10",
     "date:inception_upper": "2021-12-10",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-12-10",
+    "edtf:cessation": "2021-12-10T07:52:08Z",
+    "edtf:inception": "2021-12-10T03:30:00Z",
     "flysfo:actual_timestamp": 1639180800,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-12-10",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.800514,
     "geom:longitude": -105.1326535,
     "iata:airline": "UA",
+    "icao:aircraft": "B39M",
     "icao:airline": "UAL",
     "lbl:latitude": 37.618578,
     "lbl:longitude": -122.385434,
+    "sfomuseum:aircraft_id": 1528104577,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102533631,
@@ -34,6 +38,7 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "swim:tail_number": "N37502",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +53,9 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "10359554"
+    },
     "wof:country": "US",
     "wof:created": 1639238999,
     "wof:geomhash": "81d390dcf2582f737869c573200abb8f",
@@ -81,12 +89,13 @@
     ],
     "wof:id": 1746818177,
     "wof:involves": [
+      1528104577,
       102527513,
       102533631,
       1159285413,
       1745882245
     ],
-    "wof:lastmodified": 1639238999,
+    "wof:lastmodified": 1639239707,
     "wof:name": "UA1972 (ORD-SFO)",
     "wof:parent_id": 1745882245,
     "wof:placetype": "custom",

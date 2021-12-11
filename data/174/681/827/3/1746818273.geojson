@@ -2,10 +2,12 @@
   "id": 1746818273,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2021-12-10",
-    "date:inception_upper": "2021-12-10",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-12-10",
+    "date:cessation_lower": "2021-12-10",
+    "date:cessation_upper": "2021-12-10",
+    "date:inception_lower": "1970-01-01",
+    "date:inception_upper": "1970-01-01",
+    "edtf:cessation": "2021-12-10T08:50:48-08:00",
+    "edtf:inception": "1970-01-01T00:00:00Z",
     "flysfo:actual_timestamp": 1639184280,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-12-10",
@@ -21,9 +23,11 @@
     "geom:latitude": 28.675217,
     "geom:longitude": -139.2030015,
     "iata:airline": "UA",
+    "icao:aircraft": "B753",
     "icao:airline": "UAL",
     "lbl:latitude": 37.620058,
     "lbl:longitude": -122.38824,
+    "sfomuseum:aircraft_id": 1159289945,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102532939,
@@ -34,6 +38,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-approach"
+    ],
+    "swim:tail_number": "N77867",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -84,9 +92,10 @@
       102527513,
       102532939,
       1159285413,
-      1745882277
+      1745882277,
+      1159289945
     ],
-    "wof:lastmodified": 1639239024,
+    "wof:lastmodified": 1639239707,
     "wof:name": "UA435 (KOA-SFO)",
     "wof:parent_id": 1745882277,
     "wof:placetype": "custom",
