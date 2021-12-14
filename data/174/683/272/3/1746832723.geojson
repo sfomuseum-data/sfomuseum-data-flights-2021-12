@@ -1,0 +1,69 @@
+{
+  "id": 1746832723,
+  "type": "Feature",
+  "properties": {
+    "date:inception_lower": "2021-12-13",
+    "date:inception_upper": "2021-12-13",
+    "edtf:cessation": "",
+    "edtf:inception": "2021-12-13",
+    "flysfo:actual_timestamp": 1639440000,
+    "flysfo:airline": "UA",
+    "flysfo:date": "2021-12-13",
+    "flysfo:estimated_timestamp": 1639410180,
+    "flysfo:event": "A",
+    "flysfo:flight_number": "UA5605",
+    "flysfo:gate": "",
+    "flysfo:journey": "MRY-SFO",
+    "flysfo:scheduled_timestamp": 1639410180,
+    "flysfo:timestamp": 1639440000,
+    "geom:area": 0,
+    "geom:bbox": "-122.370943,36.587900,-121.839390,37.617990",
+    "geom:latitude": 37.102945,
+    "geom:longitude": -122.1051665,
+    "iata:airline": "UA",
+    "icao:airline": "UAL",
+    "lbl:latitude": 37.61799,
+    "lbl:longitude": -122.370943,
+    "sfomuseum:airline_id": 1159285413,
+    "sfomuseum:arrival_id": 102527513,
+    "sfomuseum:departure_id": 102525191,
+    "sfomuseum:flight_id": "20211213-A-UAL-5605",
+    "sfomuseum:flight_number": [
+      "UAL5605",
+      "UA5605"
+    ],
+    "sfomuseum:placetype": "flight",
+    "src:geom": "flysfo",
+    "wof:belongsto": [],
+    "wof:country": "US",
+    "wof:created": 1639498271,
+    "wof:geomhash": "9156ee38a86542341666d641670fb814",
+    "wof:hierarchy": [
+      {
+        "flight_id": 1746832723
+      }
+    ],
+    "wof:id": 1746832723,
+    "wof:involves": [
+      102527513,
+      102525191,
+      1159285413,
+      -1
+    ],
+    "wof:lastmodified": 1639498271,
+    "wof:name": "UA5605 (MRY-SFO)",
+    "wof:parent_id": -1,
+    "wof:placetype": "custom",
+    "wof:placetype_alt": "flight",
+    "wof:repo": "sfomuseum-data-flights-2021-12",
+    "wof:superseded_by": [],
+    "wof:supersedes": []
+  },
+  "bbox": [
+    -122.370943,
+    36.5879,
+    -121.83939,
+    37.61799
+  ],
+  "geometry": {"coordinates":[[-121.83939,36.5879],[-122.370943,37.61799]],"type":"MultiPoint"}
+}

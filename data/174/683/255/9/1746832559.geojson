@@ -1,0 +1,69 @@
+{
+  "id": 1746832559,
+  "type": "Feature",
+  "properties": {
+    "date:inception_lower": "2021-12-13",
+    "date:inception_upper": "2021-12-13",
+    "edtf:cessation": "",
+    "edtf:inception": "2021-12-13",
+    "flysfo:actual_timestamp": 1639440000,
+    "flysfo:airline": "UA",
+    "flysfo:date": "2021-12-13",
+    "flysfo:estimated_timestamp": 1639416540,
+    "flysfo:event": "A",
+    "flysfo:flight_number": "UA222",
+    "flysfo:gate": "",
+    "flysfo:journey": "BWI-SFO",
+    "flysfo:scheduled_timestamp": 1639416540,
+    "flysfo:timestamp": 1639440000,
+    "geom:area": 0,
+    "geom:bbox": "-122.370943,37.617990,-76.671070,39.181319",
+    "geom:latitude": 38.3996545,
+    "geom:longitude": -99.5210065,
+    "iata:airline": "UA",
+    "icao:airline": "UAL",
+    "lbl:latitude": 37.61799,
+    "lbl:longitude": -122.370943,
+    "sfomuseum:airline_id": 1159285413,
+    "sfomuseum:arrival_id": 102527513,
+    "sfomuseum:departure_id": 102532047,
+    "sfomuseum:flight_id": "20211213-A-UAL-222",
+    "sfomuseum:flight_number": [
+      "UAL222",
+      "UA222"
+    ],
+    "sfomuseum:placetype": "flight",
+    "src:geom": "flysfo",
+    "wof:belongsto": [],
+    "wof:country": "US",
+    "wof:created": 1639498229,
+    "wof:geomhash": "10c01f207ef95eecc919066d165ec5eb",
+    "wof:hierarchy": [
+      {
+        "flight_id": 1746832559
+      }
+    ],
+    "wof:id": 1746832559,
+    "wof:involves": [
+      102527513,
+      102532047,
+      1159285413,
+      -1
+    ],
+    "wof:lastmodified": 1639498229,
+    "wof:name": "UA222 (BWI-SFO)",
+    "wof:parent_id": -1,
+    "wof:placetype": "custom",
+    "wof:placetype_alt": "flight",
+    "wof:repo": "sfomuseum-data-flights-2021-12",
+    "wof:superseded_by": [],
+    "wof:supersedes": []
+  },
+  "bbox": [
+    -122.370943,
+    37.61799,
+    -76.67107,
+    39.181319
+  ],
+  "geometry": {"coordinates":[[-76.67107,39.181319],[-122.370943,37.61799]],"type":"MultiPoint"}
+}
