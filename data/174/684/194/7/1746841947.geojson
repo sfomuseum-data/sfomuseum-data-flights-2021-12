@@ -1,0 +1,69 @@
+{
+  "id": 1746841947,
+  "type": "Feature",
+  "properties": {
+    "date:inception_lower": "2021-12-14",
+    "date:inception_upper": "2021-12-14",
+    "edtf:cessation": "",
+    "edtf:inception": "2021-12-14",
+    "flysfo:actual_timestamp": 1639499400,
+    "flysfo:airline": "DL",
+    "flysfo:date": "2021-12-14",
+    "flysfo:estimated_timestamp": 1639500180,
+    "flysfo:event": "D",
+    "flysfo:flight_number": "DL735",
+    "flysfo:gate": "C7",
+    "flysfo:journey": "SFO-MSP",
+    "flysfo:scheduled_timestamp": 1639499220,
+    "flysfo:timestamp": 1639500180,
+    "geom:area": 0,
+    "geom:bbox": "-122.370943,37.617990,-93.200317,44.883321",
+    "geom:latitude": 41.2506555,
+    "geom:longitude": -107.78563,
+    "iata:airline": "DL",
+    "icao:airline": "DAL",
+    "lbl:latitude": 37.61799,
+    "lbl:longitude": -122.370943,
+    "sfomuseum:airline_id": 1159284261,
+    "sfomuseum:arrival_id": 102531131,
+    "sfomuseum:departure_id": 102527513,
+    "sfomuseum:flight_id": "20211214-D-DAL-735",
+    "sfomuseum:flight_number": [
+      "DAL735",
+      "DL735"
+    ],
+    "sfomuseum:placetype": "flight",
+    "src:geom": "flysfo",
+    "wof:belongsto": [],
+    "wof:country": "US",
+    "wof:created": 1639584943,
+    "wof:geomhash": "bbdc3c5edf2b2678c807f6144214d82c",
+    "wof:hierarchy": [
+      {
+        "flight_id": 1746841947
+      }
+    ],
+    "wof:id": 1746841947,
+    "wof:involves": [
+      102531131,
+      102527513,
+      1159284261,
+      1745882209
+    ],
+    "wof:lastmodified": 1639584943,
+    "wof:name": "DL735 (SFO-MSP)",
+    "wof:parent_id": -1,
+    "wof:placetype": "custom",
+    "wof:placetype_alt": "flight",
+    "wof:repo": "sfomuseum-data-flights-2021-12",
+    "wof:superseded_by": [],
+    "wof:supersedes": []
+  },
+  "bbox": [
+    -122.370943,
+    37.61799,
+    -93.200317,
+    44.883321
+  ],
+  "geometry": {"coordinates":[[-122.370943,37.61799],[-93.200317,44.883321]],"type":"MultiPoint"}
+}
