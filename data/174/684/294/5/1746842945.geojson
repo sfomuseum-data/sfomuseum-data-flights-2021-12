@@ -2,10 +2,12 @@
   "id": 1746842945,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-12-15",
+    "date:cessation_upper": "2021-12-15",
     "date:inception_lower": "2021-12-14",
     "date:inception_upper": "2021-12-14",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-12-14",
+    "edtf:cessation": "2021-12-15T01:40:55Z",
+    "edtf:inception": "2021-12-14T21:11:00Z",
     "flysfo:actual_timestamp": 1639515480,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-12-14",
@@ -21,9 +23,11 @@
     "geom:latitude": 38.283618000000004,
     "geom:longitude": -99.9123225,
     "iata:airline": "UA",
+    "icao:aircraft": "B764",
     "icao:airline": "UAL",
     "lbl:latitude": 37.619531,
     "lbl:longitude": -122.384262,
+    "sfomuseum:aircraft_id": 1394298249,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102528817,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N76062",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +57,10 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "10724068",
+      "swim:gufi": "KO62796300"
+    },
     "wof:country": "US",
     "wof:created": 1639585193,
     "wof:geomhash": "1c4ce661f6692034a082b31062a17f5e",
@@ -81,12 +94,13 @@
     ],
     "wof:id": 1746842945,
     "wof:involves": [
+      1394298249,
       102528817,
       102527513,
       1159285413,
       1745882319
     ],
-    "wof:lastmodified": 1639585193,
+    "wof:lastmodified": 1639585285,
     "wof:name": "UA343 (SFO-IAD)",
     "wof:parent_id": 1745882319,
     "wof:placetype": "custom",

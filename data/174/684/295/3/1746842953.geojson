@@ -2,10 +2,12 @@
   "id": 1746842953,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-12-14",
+    "date:cessation_upper": "2021-12-14",
     "date:inception_lower": "2021-12-14",
     "date:inception_upper": "2021-12-14",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-12-14",
+    "edtf:cessation": "2021-12-14T20:11:00Z",
+    "edtf:inception": "2021-12-14T17:04:00Z",
     "flysfo:actual_timestamp": 1639500660,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-12-14",
@@ -21,9 +23,11 @@
     "geom:latitude": 33.9120825,
     "geom:longitude": -110.006986,
     "iata:airline": "UA",
+    "icao:aircraft": "B738",
     "icao:airline": "UAL",
     "lbl:latitude": 37.619425,
     "lbl:longitude": -122.384028,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102521851,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N77525",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +57,9 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KO54607300"
+    },
     "wof:country": "US",
     "wof:created": 1639585194,
     "wof:geomhash": "f1e29c4a83094711ef061292cfad3358",
@@ -84,9 +96,10 @@
       102521851,
       102527513,
       1159285413,
-      1745882321
+      1745882321,
+      1159289871
     ],
-    "wof:lastmodified": 1639585194,
+    "wof:lastmodified": 1639585285,
     "wof:name": "UA376 (SFO-AUS)",
     "wof:parent_id": 1745882321,
     "wof:placetype": "custom",
