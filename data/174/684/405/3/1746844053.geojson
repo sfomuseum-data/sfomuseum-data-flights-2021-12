@@ -2,10 +2,12 @@
   "id": 1746844053,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-12-15",
+    "date:cessation_upper": "2021-12-15",
     "date:inception_lower": "2021-12-15",
     "date:inception_upper": "2021-12-15",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-12-15",
+    "edtf:cessation": "2021-12-15T20:16:00Z",
+    "edtf:inception": "2021-12-15T13:46:00Z",
     "flysfo:actual_timestamp": 1639612800,
     "flysfo:airline": "DL",
     "flysfo:date": "2021-12-15",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.990156,
     "geom:longitude": -96.6928465,
     "iata:airline": "DL",
+    "icao:aircraft": "B752",
     "icao:airline": "DAL",
     "lbl:latitude": 37.615184,
     "lbl:longitude": -122.382965,
+    "sfomuseum:aircraft_id": 1159289939,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102530741,
@@ -34,6 +38,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path"
+    ],
+    "swim:tail_number": "N690DL",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +56,10 @@
       1745882137,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "10764590",
+      "swim:gufi": "KB45060400"
+    },
     "wof:country": "US",
     "wof:created": 1639670671,
     "wof:geomhash": "9cccd37636918a32bc446a92e7ba93ba",
@@ -81,12 +93,13 @@
     ],
     "wof:id": 1746844053,
     "wof:involves": [
-      102527513,
-      102530741,
       1159284261,
-      1745882205
+      1745882205,
+      1159289939,
+      102527513,
+      102530741
     ],
-    "wof:lastmodified": 1639670671,
+    "wof:lastmodified": 1639671357,
     "wof:name": "DL1123 (BOS-SFO)",
     "wof:parent_id": 1745882205,
     "wof:placetype": "custom",

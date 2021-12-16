@@ -2,10 +2,12 @@
   "id": 1746844813,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2021-12-15",
-    "date:inception_upper": "2021-12-15",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-12-15",
+    "date:cessation_lower": "2021-12-15",
+    "date:cessation_upper": "2021-12-15",
+    "date:inception_lower": "2021-12-16",
+    "date:inception_upper": "2021-12-16",
+    "edtf:cessation": "2021-12-15T13:27:10-08:00",
+    "edtf:inception": "2021-12-16T00:33:00Z",
     "flysfo:actual_timestamp": 1639631580,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-12-15",
@@ -21,9 +23,11 @@
     "geom:latitude": 28.675217,
     "geom:longitude": -139.2030015,
     "iata:airline": "UA",
+    "icao:aircraft": "B753",
     "icao:airline": "UAL",
     "lbl:latitude": 37.621076,
     "lbl:longitude": -122.390239,
+    "sfomuseum:aircraft_id": 1159289945,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102532939,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N75851",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -81,12 +90,13 @@
     ],
     "wof:id": 1746844813,
     "wof:involves": [
+      1745882293,
+      1159289945,
       102527513,
       102532939,
-      1159285413,
-      1745882293
+      1159285413
     ],
-    "wof:lastmodified": 1639670889,
+    "wof:lastmodified": 1639671360,
     "wof:name": "UA643 (KOA-SFO)",
     "wof:parent_id": 1745882293,
     "wof:placetype": "custom",

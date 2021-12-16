@@ -2,10 +2,12 @@
   "id": 1746845713,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-12-15",
+    "date:cessation_upper": "2021-12-15",
     "date:inception_lower": "2021-12-15",
     "date:inception_upper": "2021-12-15",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-12-15",
+    "edtf:cessation": "2021-12-15T18:17:14Z",
+    "edtf:inception": "2021-12-15T07:24:00Z",
     "flysfo:actual_timestamp": 1639637280,
     "flysfo:airline": "FJ",
     "flysfo:date": "2021-12-15",
@@ -48,6 +50,9 @@
       1745882335,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "10752256"
+    },
     "wof:country": "US",
     "wof:created": 1639671126,
     "wof:geomhash": "ac04d12b9bb720d89a4c8027fbef35a5",
@@ -86,7 +91,7 @@
       1159283717,
       1745882389
     ],
-    "wof:lastmodified": 1639671126,
+    "wof:lastmodified": 1639671354,
     "wof:name": "FJ871 (SFO-NAN)",
     "wof:parent_id": 1745882389,
     "wof:placetype": "custom",

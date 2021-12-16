@@ -2,10 +2,12 @@
   "id": 1746845355,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-12-16",
+    "date:cessation_upper": "2021-12-16",
     "date:inception_lower": "2021-12-15",
     "date:inception_upper": "2021-12-15",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-12-15",
+    "edtf:cessation": "2021-12-16T03:16:00Z",
+    "edtf:inception": "2021-12-15T22:02:00Z",
     "flysfo:actual_timestamp": 1639612800,
     "flysfo:airline": "AS",
     "flysfo:date": "2021-12-15",
@@ -48,6 +50,9 @@
       1745882085,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "10812766"
+    },
     "wof:country": "US",
     "wof:created": 1639671029,
     "wof:geomhash": "1348792a172720778d3219cc18ccd8ee",
@@ -86,7 +91,7 @@
       1159283813,
       1745882097
     ],
-    "wof:lastmodified": 1639671029,
+    "wof:lastmodified": 1639671362,
     "wof:name": "AS1024 (SFO-JFK)",
     "wof:parent_id": 1745882097,
     "wof:placetype": "custom",

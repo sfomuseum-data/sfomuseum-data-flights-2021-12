@@ -2,10 +2,12 @@
   "id": 1746844613,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2021-12-15",
-    "date:inception_upper": "2021-12-15",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-12-15",
+    "date:cessation_lower": "2021-12-16",
+    "date:cessation_upper": "2021-12-16",
+    "date:inception_lower": "2021-12-16",
+    "date:inception_upper": "2021-12-16",
+    "edtf:cessation": "2021-12-15T18:16:07-08:00",
+    "edtf:inception": "2021-12-16T05:36:00Z",
     "flysfo:actual_timestamp": 1639632240,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-12-15",
@@ -21,9 +23,11 @@
     "geom:latitude": 29.799764500000002,
     "geom:longitude": -140.859366,
     "iata:airline": "UA",
+    "icao:aircraft": "B752",
     "icao:airline": "UAL",
     "lbl:latitude": 37.620304,
     "lbl:longitude": -122.388827,
+    "sfomuseum:aircraft_id": 1159289939,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102528943,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N14102",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +58,10 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "10740460",
+      "swim:gufi": "KO31811500"
+    },
     "wof:country": "US",
     "wof:created": 1639670839,
     "wof:geomhash": "46fccc0e56242535ccfd5ecb278f9a75",
@@ -81,12 +95,13 @@
     ],
     "wof:id": 1746844613,
     "wof:involves": [
+      1159289939,
       102527513,
       102528943,
       1159285413,
       1745882279
     ],
-    "wof:lastmodified": 1639670839,
+    "wof:lastmodified": 1639671359,
     "wof:name": "UA1563 (LIH-SFO)",
     "wof:parent_id": 1745882279,
     "wof:placetype": "custom",
