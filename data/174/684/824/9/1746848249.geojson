@@ -2,10 +2,12 @@
   "id": 1746848249,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-12-16",
+    "date:cessation_upper": "2021-12-16",
     "date:inception_lower": "2021-12-16",
     "date:inception_upper": "2021-12-16",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-12-16",
+    "edtf:cessation": "2021-12-16T03:06:13-08:00",
+    "edtf:inception": "2021-12-16T05:50:00Z",
     "flysfo:actual_timestamp": 1639699200,
     "flysfo:airline": "SQ",
     "flysfo:date": "2021-12-16",
@@ -21,9 +23,11 @@
     "geom:latitude": 29.9627305,
     "geom:longitude": -4.221753499999998,
     "iata:airline": "SQ",
+    "icao:aircraft": "A359",
     "icao:airline": "SIA",
     "lbl:latitude": 37.618742,
     "lbl:longitude": -122.392935,
+    "sfomuseum:aircraft_id": 1377564293,
     "sfomuseum:airline_id": 1159286259,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102541737,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-approach"
+    ],
+    "swim:tail_number": "9VSMC",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +57,9 @@
       1745882335,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "10835894"
+    },
     "wof:country": "US",
     "wof:created": 1639757311,
     "wof:geomhash": "300aa0b6d6fd1fa7d09bf740f0e0c265",
@@ -81,12 +93,13 @@
     ],
     "wof:id": 1746848249,
     "wof:involves": [
+      1377564293,
       102527513,
       102541737,
       1159286259,
       1745882421
     ],
-    "wof:lastmodified": 1639757311,
+    "wof:lastmodified": 1639758054,
     "wof:name": "SQ8 (HKG-SFO)",
     "wof:parent_id": 1745882421,
     "wof:placetype": "custom",

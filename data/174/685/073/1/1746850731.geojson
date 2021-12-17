@@ -2,10 +2,12 @@
   "id": 1746850731,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-12-17",
+    "date:cessation_upper": "2021-12-17",
     "date:inception_lower": "2021-12-16",
     "date:inception_upper": "2021-12-16",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-12-16",
+    "edtf:cessation": "2021-12-17T09:13:09Z",
+    "edtf:inception": "2021-12-16T23:08:00Z",
     "flysfo:actual_timestamp": 1639699200,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-12-16",
@@ -21,9 +23,11 @@
     "geom:latitude": 42.9853355,
     "geom:longitude": -55.2970675,
     "iata:airline": "UA",
+    "icao:aircraft": "B789",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61836,
     "lbl:longitude": -122.393229,
+    "sfomuseum:aircraft_id": 1159293215,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102549067,
     "sfomuseum:departure_id": 102527513,
@@ -48,6 +52,10 @@
       1745882335,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "10895754",
+      "swim:gufi": "KO64436500"
+    },
     "wof:country": "US",
     "wof:created": 1639757938,
     "wof:geomhash": "d9a5d9d800d6bc92413ff3768040f8da",
@@ -81,12 +89,13 @@
     ],
     "wof:id": 1746850731,
     "wof:involves": [
-      102549067,
       102527513,
       1159285413,
-      1745882423
+      1745882423,
+      1159293215,
+      102549067
     ],
-    "wof:lastmodified": 1639757938,
+    "wof:lastmodified": 1639758049,
     "wof:name": "UA194 (SFO-MUC)",
     "wof:parent_id": 1745882423,
     "wof:placetype": "custom",
