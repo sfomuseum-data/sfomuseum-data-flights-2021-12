@@ -2,10 +2,12 @@
   "id": 1746852803,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-12-17",
+    "date:cessation_upper": "2021-12-17",
     "date:inception_lower": "2021-12-17",
     "date:inception_upper": "2021-12-17",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-12-17",
+    "edtf:cessation": "2021-12-17T03:00:14-08:00",
+    "edtf:inception": "2021-12-17T18:08:00Z",
     "flysfo:actual_timestamp": 1639785600,
     "flysfo:airline": "WN",
     "flysfo:date": "2021-12-17",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.907347,
     "geom:longitude": -120.3621325,
     "iata:airline": "WN",
+    "icao:aircraft": "B737",
     "icao:airline": "SWA",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289869,
     "sfomuseum:airline_id": 1159285591,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102532771,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N453WN",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +57,9 @@
       1745882137,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "10963038"
+    },
     "wof:country": "US",
     "wof:created": 1639843699,
     "wof:geomhash": "579cc6c0d5668ba584a946b357aa3191",
@@ -81,12 +93,13 @@
     ],
     "wof:id": 1746852803,
     "wof:involves": [
+      1159289869,
       102527513,
       102532771,
       1159285591,
       1745882149
     ],
-    "wof:lastmodified": 1639843699,
+    "wof:lastmodified": 1639844402,
     "wof:name": "WN2924 (BUR-SFO)",
     "wof:parent_id": 1745882149,
     "wof:placetype": "custom",

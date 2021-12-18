@@ -2,10 +2,12 @@
   "id": 1746852811,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2021-12-17",
-    "date:inception_upper": "2021-12-17",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-12-17",
+    "date:cessation_lower": "2021-12-17",
+    "date:cessation_upper": "2021-12-17",
+    "date:inception_lower": "2021-12-18",
+    "date:inception_upper": "2021-12-18",
+    "edtf:cessation": "2021-12-17T11:26:09-08:00",
+    "edtf:inception": "2021-12-18T02:32:00Z",
     "flysfo:actual_timestamp": 1639785600,
     "flysfo:airline": "WN",
     "flysfo:date": "2021-12-17",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.907347,
     "geom:longitude": -120.3621325,
     "iata:airline": "WN",
+    "icao:aircraft": "B737",
     "icao:airline": "SWA",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289869,
     "sfomuseum:airline_id": 1159285591,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102532771,
@@ -34,7 +38,15 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N7847A",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "10915563"
+    },
     "wof:country": "US",
     "wof:created": 1639843701,
     "wof:geomhash": "579cc6c0d5668ba584a946b357aa3191",
@@ -45,12 +57,12 @@
     ],
     "wof:id": 1746852811,
     "wof:involves": [
-      102527513,
       102532771,
       1159285591,
-      -1
+      1159289869,
+      102527513
     ],
-    "wof:lastmodified": 1639843701,
+    "wof:lastmodified": 1639844402,
     "wof:name": "WN4378 (BUR-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
