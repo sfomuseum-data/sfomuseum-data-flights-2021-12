@@ -1,0 +1,69 @@
+{
+  "id": 1746852809,
+  "type": "Feature",
+  "properties": {
+    "date:inception_lower": "2021-12-17",
+    "date:inception_upper": "2021-12-17",
+    "edtf:cessation": "",
+    "edtf:inception": "2021-12-17",
+    "flysfo:actual_timestamp": 1639785600,
+    "flysfo:airline": "WN",
+    "flysfo:date": "2021-12-17",
+    "flysfo:estimated_timestamp": 1639793580,
+    "flysfo:event": "A",
+    "flysfo:flight_number": "WN3913",
+    "flysfo:gate": "",
+    "flysfo:journey": "MDW-SFO",
+    "flysfo:scheduled_timestamp": 1639793400,
+    "flysfo:timestamp": 1639793580,
+    "geom:area": 0,
+    "geom:bbox": "-122.370943,37.617990,-87.745903,41.787532",
+    "geom:latitude": 39.702760999999995,
+    "geom:longitude": -105.058423,
+    "iata:airline": "WN",
+    "icao:airline": "SWA",
+    "lbl:latitude": 37.61799,
+    "lbl:longitude": -122.370943,
+    "sfomuseum:airline_id": 1159285591,
+    "sfomuseum:arrival_id": 102527513,
+    "sfomuseum:departure_id": 102531205,
+    "sfomuseum:flight_id": "20211217-A-SWA-3913",
+    "sfomuseum:flight_number": [
+      "SWA3913",
+      "WN3913"
+    ],
+    "sfomuseum:placetype": "flight",
+    "src:geom": "flysfo",
+    "wof:belongsto": [],
+    "wof:country": "US",
+    "wof:created": 1639843701,
+    "wof:geomhash": "bbd014edfd8455b7d9e062bec23e52e6",
+    "wof:hierarchy": [
+      {
+        "flight_id": 1746852809
+      }
+    ],
+    "wof:id": 1746852809,
+    "wof:involves": [
+      102527513,
+      102531205,
+      1159285591,
+      -1
+    ],
+    "wof:lastmodified": 1639843701,
+    "wof:name": "WN3913 (MDW-SFO)",
+    "wof:parent_id": -1,
+    "wof:placetype": "custom",
+    "wof:placetype_alt": "flight",
+    "wof:repo": "sfomuseum-data-flights-2021-12",
+    "wof:superseded_by": [],
+    "wof:supersedes": []
+  },
+  "bbox": [
+    -122.370943,
+    37.61799,
+    -87.745903,
+    41.787532
+  ],
+  "geometry": {"coordinates":[[-87.745903,41.787532],[-122.370943,37.61799]],"type":"MultiPoint"}
+}
