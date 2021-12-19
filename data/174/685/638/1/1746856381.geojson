@@ -2,10 +2,12 @@
   "id": 1746856381,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-12-18",
+    "date:cessation_upper": "2021-12-18",
     "date:inception_lower": "2021-12-18",
     "date:inception_upper": "2021-12-18",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-12-18",
+    "edtf:cessation": "2021-12-18T03:55:58-08:00",
+    "edtf:inception": "2021-12-18T18:32:00Z",
     "flysfo:actual_timestamp": 1639872000,
     "flysfo:airline": "AS",
     "flysfo:date": "2021-12-18",
@@ -21,9 +23,11 @@
     "geom:latitude": 41.602067,
     "geom:longitude": -122.484166,
     "iata:airline": "AS",
+    "icao:aircraft": "A320",
     "icao:airline": "ASA",
     "lbl:latitude": 37.617421,
     "lbl:longitude": -122.380916,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102532251,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N840VA",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +58,9 @@
       1745882085,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "11057252"
+    },
     "wof:country": "US",
     "wof:created": 1639929880,
     "wof:geomhash": "3af422147b92e6fa9912d38a57ea404a",
@@ -81,12 +94,13 @@
     ],
     "wof:id": 1746856381,
     "wof:involves": [
+      1159292085,
       102527513,
       102532251,
       1159283813,
       1745882107
     ],
-    "wof:lastmodified": 1639929880,
+    "wof:lastmodified": 1639930787,
     "wof:name": "AS700 (PDX-SFO)",
     "wof:parent_id": 1745882107,
     "wof:placetype": "custom",

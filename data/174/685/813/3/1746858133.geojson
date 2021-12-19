@@ -2,10 +2,12 @@
   "id": 1746858133,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-12-19",
+    "date:cessation_upper": "2021-12-19",
     "date:inception_lower": "2021-12-18",
     "date:inception_upper": "2021-12-18",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-12-18",
+    "edtf:cessation": "2021-12-19T02:11:10Z",
+    "edtf:inception": "2021-12-18T21:50:00Z",
     "flysfo:actual_timestamp": 1639872000,
     "flysfo:airline": "AC",
     "flysfo:date": "2021-12-18",
@@ -35,6 +37,9 @@
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "11067546"
+    },
     "wof:country": "US",
     "wof:created": 1639930313,
     "wof:geomhash": "1a30ef2f5f82135186aeb20f0187ac62",
@@ -50,7 +55,7 @@
       1159283597,
       -1
     ],
-    "wof:lastmodified": 1639930313,
+    "wof:lastmodified": 1639930782,
     "wof:name": "AC740 (SFO-YYZ)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 1746859421,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-12-18",
+    "date:cessation_upper": "2021-12-18",
     "date:inception_lower": "2021-12-18",
     "date:inception_upper": "2021-12-18",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-12-18",
+    "edtf:cessation": "2021-12-18T01:42:38Z",
+    "edtf:inception": "2021-12-18T00:30:00Z",
     "flysfo:actual_timestamp": 1639872000,
     "flysfo:airline": "WN",
     "flysfo:date": "2021-12-18",
@@ -48,6 +50,9 @@
       1745882137,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "10995132"
+    },
     "wof:country": "US",
     "wof:created": 1639930631,
     "wof:geomhash": "25f5345529d944df781e36098260a435",
@@ -86,7 +91,7 @@
       1159285591,
       1745882151
     ],
-    "wof:lastmodified": 1639930631,
+    "wof:lastmodified": 1639930792,
     "wof:name": "WN2689 (SFO-SAN)",
     "wof:parent_id": 1745882151,
     "wof:placetype": "custom",

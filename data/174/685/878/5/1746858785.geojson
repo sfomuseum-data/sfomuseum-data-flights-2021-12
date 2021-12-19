@@ -2,10 +2,12 @@
   "id": 1746858785,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-12-19",
+    "date:cessation_upper": "2021-12-19",
     "date:inception_lower": "2021-12-18",
     "date:inception_upper": "2021-12-18",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-12-18",
+    "edtf:cessation": "2021-12-19T02:21:00Z",
+    "edtf:inception": "2021-12-18T22:19:00Z",
     "flysfo:actual_timestamp": 1639872000,
     "flysfo:airline": "DL",
     "flysfo:date": "2021-12-18",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.627254,
     "geom:longitude": -103.4008145,
     "iata:airline": "DL",
+    "icao:aircraft": "B752",
     "icao:airline": "DAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289939,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102526927,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path"
+    ],
+    "swim:tail_number": "N671DN",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +56,10 @@
       1745882137,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "11078108",
+      "swim:gufi": "KO76262700"
+    },
     "wof:country": "US",
     "wof:created": 1639930474,
     "wof:geomhash": "8306f5516cededf93440c49d2c7be198",
@@ -81,12 +93,13 @@
     ],
     "wof:id": 1746858785,
     "wof:involves": [
+      1159289939,
       102526927,
       102527513,
       1159284261,
       1745882213
     ],
-    "wof:lastmodified": 1639930474,
+    "wof:lastmodified": 1639930784,
     "wof:name": "DL824 (SFO-ATL)",
     "wof:parent_id": 1745882213,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 1746859791,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-12-18",
+    "date:cessation_upper": "2021-12-18",
     "date:inception_lower": "2021-12-18",
     "date:inception_upper": "2021-12-18",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-12-18",
+    "edtf:cessation": "2021-12-18T19:52:00Z",
+    "edtf:inception": "2021-12-18T02:57:56-08:00",
     "flysfo:actual_timestamp": 1639872000,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-12-18",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.780291500000004,
     "geom:longitude": -120.38022649999999,
     "iata:airline": "UA",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "lbl:latitude": 37.618678,
     "lbl:longitude": -122.385955,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102533795,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N414UA",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +57,10 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "11057970",
+      "swim:gufi": "KO55451700"
+    },
     "wof:country": "US",
     "wof:created": 1639930722,
     "wof:geomhash": "602be2a828e3460cadf44be5b1c2e36b",
@@ -81,12 +94,13 @@
     ],
     "wof:id": 1746859791,
     "wof:involves": [
+      1159292085,
       102533795,
       102527513,
       1159285413,
       1745882243
     ],
-    "wof:lastmodified": 1639930722,
+    "wof:lastmodified": 1639930792,
     "wof:name": "UA552 (SFO-LAX)",
     "wof:parent_id": 1745882243,
     "wof:placetype": "custom",
