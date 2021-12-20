@@ -2,10 +2,12 @@
   "id": 1746863333,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-12-19",
+    "date:cessation_upper": "2021-12-19",
     "date:inception_lower": "2021-12-19",
     "date:inception_upper": "2021-12-19",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-12-19",
+    "edtf:cessation": "2021-12-19T15:34:28Z",
+    "edtf:inception": "2021-12-19T05:28:00Z",
     "flysfo:actual_timestamp": 1639958400,
     "flysfo:airline": "BF",
     "flysfo:date": "2021-12-19",
@@ -35,6 +37,9 @@
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "11156937"
+    },
     "wof:country": "US",
     "wof:created": 1640016904,
     "wof:geomhash": "edaaf2818a2a544efcecaa79ec77eac5",
@@ -50,7 +55,7 @@
       1377649073,
       -1
     ],
-    "wof:lastmodified": 1640016904,
+    "wof:lastmodified": 1640017186,
     "wof:name": "BF711 (SFO-ORY)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

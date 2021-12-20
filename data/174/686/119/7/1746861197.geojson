@@ -2,10 +2,12 @@
   "id": 1746861197,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-12-19",
+    "date:cessation_upper": "2021-12-19",
     "date:inception_lower": "2021-12-19",
     "date:inception_upper": "2021-12-19",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-12-19",
+    "edtf:cessation": "2021-12-19T05:46:00Z",
+    "edtf:inception": "2021-12-19T04:38:00Z",
     "flysfo:actual_timestamp": 1639958400,
     "flysfo:airline": "F9",
     "flysfo:date": "2021-12-19",
@@ -48,6 +50,9 @@
       1745882335,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "11098248"
+    },
     "wof:country": "US",
     "wof:created": 1640016376,
     "wof:geomhash": "fcf5095e8d1a14d003993bc5070a7f0f",
@@ -86,7 +91,7 @@
       1159284401,
       1745882389
     ],
-    "wof:lastmodified": 1640016376,
+    "wof:lastmodified": 1640017191,
     "wof:name": "F92079 (LAS-SFO)",
     "wof:parent_id": 1745882389,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 1746862999,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-12-19",
+    "date:cessation_upper": "2021-12-19",
     "date:inception_lower": "2021-12-19",
     "date:inception_upper": "2021-12-19",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-12-19",
+    "edtf:cessation": "2021-12-19T20:38:28Z",
+    "edtf:inception": "2021-12-19T15:29:00Z",
     "flysfo:actual_timestamp": 1639958400,
     "flysfo:airline": "AS",
     "flysfo:date": "2021-12-19",
@@ -34,6 +36,9 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path"
+    ],
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +53,9 @@
       1745882085,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "11119083"
+    },
     "wof:country": "US",
     "wof:created": 1640016823,
     "wof:geomhash": "ff961493fc59fc665836e174da62aa8e",
@@ -86,7 +94,7 @@
       1159283813,
       1745882107
     ],
-    "wof:lastmodified": 1640016823,
+    "wof:lastmodified": 1640017186,
     "wof:name": "AS743 (SFO-HNL)",
     "wof:parent_id": 1745882107,
     "wof:placetype": "custom",

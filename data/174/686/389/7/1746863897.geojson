@@ -2,10 +2,12 @@
   "id": 1746863897,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-12-19",
+    "date:cessation_upper": "2021-12-19",
     "date:inception_lower": "2021-12-19",
     "date:inception_upper": "2021-12-19",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-12-19",
+    "edtf:cessation": "2021-12-19T13:28:03Z",
+    "edtf:inception": "2021-12-19T02:04:00Z",
     "flysfo:actual_timestamp": 1639958400,
     "flysfo:airline": "TP",
     "flysfo:date": "2021-12-19",
@@ -35,6 +37,9 @@
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "11090000"
+    },
     "wof:country": "US",
     "wof:created": 1640017042,
     "wof:geomhash": "d52bb0a5cfa06eebb6a938b29d78a44d",
@@ -50,7 +55,7 @@
       1159285271,
       -1
     ],
-    "wof:lastmodified": 1640017042,
+    "wof:lastmodified": 1640017187,
     "wof:name": "TP236 (SFO-LIS)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
