@@ -2,10 +2,12 @@
   "id": 1746870937,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2021-12-20",
-    "date:inception_upper": "2021-12-20",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-12-20",
+    "date:cessation_lower": "2021-12-21",
+    "date:cessation_upper": "2021-12-21",
+    "date:inception_lower": "2021-12-21",
+    "date:inception_upper": "2021-12-21",
+    "edtf:cessation": "2021-12-21T02:15:00Z",
+    "edtf:inception": "2021-12-21T01:14:00Z",
     "flysfo:actual_timestamp": 1640044800,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-12-20",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.647857,
     "geom:longitude": -120.1186115,
     "iata:airline": "UA",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "lbl:latitude": 37.618339,
     "lbl:longitude": -122.387219,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102534161,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N468UA",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +58,10 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "11160168",
+      "swim:gufi": "KO77448200"
+    },
     "wof:country": "US",
     "wof:created": 1640103769,
     "wof:geomhash": "b700d5ae3794da4176af6b85f6cd6669",
@@ -81,12 +95,13 @@
     ],
     "wof:id": 1746870937,
     "wof:involves": [
+      1159292085,
       102534161,
       102527513,
       1159285413,
       1745882255
     ],
-    "wof:lastmodified": 1640103769,
+    "wof:lastmodified": 1640103883,
     "wof:name": "UA2473 (SFO-SNA)",
     "wof:parent_id": 1745882255,
     "wof:placetype": "custom",

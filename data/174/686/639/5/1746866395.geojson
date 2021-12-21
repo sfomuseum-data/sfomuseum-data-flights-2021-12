@@ -2,10 +2,12 @@
   "id": 1746866395,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2021-12-20",
-    "date:inception_upper": "2021-12-20",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-12-20",
+    "date:cessation_lower": "2021-12-20",
+    "date:cessation_upper": "2021-12-20",
+    "date:inception_lower": "1970-01-01",
+    "date:inception_upper": "1970-01-01",
+    "edtf:cessation": "2021-12-20T13:53:22-08:00",
+    "edtf:inception": "1970-01-01T00:00:00Z",
     "flysfo:actual_timestamp": 1640044800,
     "flysfo:airline": "AM",
     "flysfo:date": "2021-12-20",
@@ -21,9 +23,11 @@
     "geom:latitude": 28.524645999999997,
     "geom:longitude": -110.7258735,
     "iata:airline": "AM",
+    "icao:aircraft": "B738",
     "icao:airline": "AMX",
     "lbl:latitude": 37.611664,
     "lbl:longitude": -122.390495,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159283539,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102536579,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "XAAMC",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -84,9 +93,10 @@
       102527513,
       102536579,
       1159283539,
-      1745882399
+      1745882399,
+      1159289871
     ],
-    "wof:lastmodified": 1640102620,
+    "wof:lastmodified": 1640103878,
     "wof:name": "AM664 (MEX-SFO)",
     "wof:parent_id": 1745882399,
     "wof:placetype": "custom",
