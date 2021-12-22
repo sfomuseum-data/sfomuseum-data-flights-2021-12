@@ -2,10 +2,12 @@
   "id": 1746874685,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-12-22",
+    "date:cessation_upper": "2021-12-22",
     "date:inception_lower": "2021-12-21",
     "date:inception_upper": "2021-12-21",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-12-21",
+    "edtf:cessation": "2021-12-22T13:14:23Z",
+    "edtf:inception": "2021-12-21T23:09:00Z",
     "flysfo:actual_timestamp": 1640127300,
     "flysfo:airline": "QR",
     "flysfo:date": "2021-12-21",
@@ -48,6 +50,9 @@
       1745882335,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "11317147"
+    },
     "wof:country": "US",
     "wof:created": 1640189719,
     "wof:geomhash": "416bdc237edab89fa41708dc7205b7b6",
@@ -86,7 +91,7 @@
       1159286153,
       1745882391
     ],
-    "wof:lastmodified": 1640189719,
+    "wof:lastmodified": 1640189861,
     "wof:name": "QR738 (SFO-DOH)",
     "wof:parent_id": 1745882391,
     "wof:placetype": "custom",

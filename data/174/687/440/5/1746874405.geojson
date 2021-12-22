@@ -2,10 +2,12 @@
   "id": 1746874405,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-12-21",
+    "date:cessation_upper": "2021-12-21",
     "date:inception_lower": "2021-12-21",
     "date:inception_upper": "2021-12-21",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-12-21",
+    "edtf:cessation": "2021-12-21T06:33:48Z",
+    "edtf:inception": "2021-12-21T04:38:00Z",
     "flysfo:actual_timestamp": 1640131200,
     "flysfo:airline": "F9",
     "flysfo:date": "2021-12-21",
@@ -35,6 +37,9 @@
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "11247982"
+    },
     "wof:country": "US",
     "wof:created": 1640189650,
     "wof:geomhash": "976937653dbac6c9c27dd23670ba89bf",
@@ -50,7 +55,7 @@
       1159284401,
       -1
     ],
-    "wof:lastmodified": 1640189650,
+    "wof:lastmodified": 1640189861,
     "wof:name": "F9664 (SFO-DEN)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
