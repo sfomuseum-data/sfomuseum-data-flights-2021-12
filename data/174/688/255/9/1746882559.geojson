@@ -2,10 +2,12 @@
   "id": 1746882559,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-12-23",
+    "date:cessation_upper": "2021-12-23",
     "date:inception_lower": "2021-12-23",
     "date:inception_upper": "2021-12-23",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-12-23",
+    "edtf:cessation": "2021-12-23T11:27:23Z",
+    "edtf:inception": "2021-12-23T07:05:00Z",
     "flysfo:actual_timestamp": 1640304000,
     "flysfo:airline": "AS",
     "flysfo:date": "2021-12-23",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.1546165,
     "geom:longitude": -98.2742345,
     "iata:airline": "AS",
+    "icao:aircraft": "B738",
     "icao:airline": "ASA",
     "lbl:latitude": 37.616838,
     "lbl:longitude": -122.380969,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102530049,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N517AS",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +57,9 @@
       1745882085,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "11429353"
+    },
     "wof:country": "US",
     "wof:created": 1640362599,
     "wof:geomhash": "5f8ba203e186fe379420b736bcf5de4f",
@@ -81,12 +93,13 @@
     ],
     "wof:id": 1746882559,
     "wof:involves": [
+      1159289871,
       102530049,
       102527513,
       1159283813,
       1745882101
     ],
-    "wof:lastmodified": 1640362599,
+    "wof:lastmodified": 1640363058,
     "wof:name": "AS334 (SFO-EWR)",
     "wof:parent_id": 1745882101,
     "wof:placetype": "custom",

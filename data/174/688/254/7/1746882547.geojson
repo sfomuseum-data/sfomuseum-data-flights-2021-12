@@ -2,10 +2,12 @@
   "id": 1746882547,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-12-23",
+    "date:cessation_upper": "2021-12-23",
     "date:inception_lower": "2021-12-23",
     "date:inception_upper": "2021-12-23",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-12-23",
+    "edtf:cessation": "2021-12-23T19:46:00Z",
+    "edtf:inception": "2021-12-23T15:19:00Z",
     "flysfo:actual_timestamp": 1640271240,
     "flysfo:airline": "AS",
     "flysfo:date": "2021-12-23",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.130638000000005,
     "geom:longitude": -98.07939400000001,
     "iata:airline": "AS",
+    "icao:aircraft": "A21N",
     "icao:airline": "ASA",
     "lbl:latitude": 37.618149,
     "lbl:longitude": -122.381669,
+    "sfomuseum:aircraft_id": 1377564297,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102534365,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N928VA",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +57,9 @@
       1745882085,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "11451878"
+    },
     "wof:country": "US",
     "wof:created": 1640362596,
     "wof:geomhash": "1348792a172720778d3219cc18ccd8ee",
@@ -81,12 +93,13 @@
     ],
     "wof:id": 1746882547,
     "wof:involves": [
+      1377564297,
       102534365,
       102527513,
       1159283813,
       1745882117
     ],
-    "wof:lastmodified": 1640362596,
+    "wof:lastmodified": 1640363058,
     "wof:name": "AS326 (SFO-JFK)",
     "wof:parent_id": 1745882117,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 1746882185,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2021-12-23",
-    "date:inception_upper": "2021-12-23",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-12-23",
+    "date:cessation_lower": "2021-12-23",
+    "date:cessation_upper": "2021-12-23",
+    "date:inception_lower": "2021-12-24",
+    "date:inception_upper": "2021-12-24",
+    "edtf:cessation": "2021-12-23T12:22:13Z",
+    "edtf:inception": "2021-12-23T16:56:38-08:00",
     "flysfo:actual_timestamp": 1640304000,
     "flysfo:airline": "AM",
     "flysfo:date": "2021-12-23",
@@ -21,9 +23,11 @@
     "geom:latitude": 28.524645999999997,
     "geom:longitude": -110.7258735,
     "iata:airline": "AM",
+    "icao:aircraft": "B738",
     "icao:airline": "AMX",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159283539,
     "sfomuseum:arrival_id": 102536579,
     "sfomuseum:departure_id": 102527513,
@@ -34,7 +38,16 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "XADRA",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "11430994"
+    },
     "wof:country": "US",
     "wof:created": 1640362508,
     "wof:geomhash": "01999c4327be8e36df88ffd5cda77111",
@@ -45,12 +58,12 @@
     ],
     "wof:id": 1746882185,
     "wof:involves": [
-      102536579,
       102527513,
       1159283539,
-      -1
+      1159289871,
+      102536579
     ],
-    "wof:lastmodified": 1640362508,
+    "wof:lastmodified": 1640363058,
     "wof:name": "AM1665 (SFO-MEX)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

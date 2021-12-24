@@ -2,10 +2,12 @@
   "id": 1746881507,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-12-23",
+    "date:cessation_upper": "2021-12-23",
     "date:inception_lower": "2021-12-23",
     "date:inception_upper": "2021-12-23",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-12-23",
+    "edtf:cessation": "2021-12-23T01:21:35-08:00",
+    "edtf:inception": "2021-12-23T12:36:00Z",
     "flysfo:actual_timestamp": 1640280420,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-12-23",
@@ -21,9 +23,11 @@
     "geom:latitude": 38.674126,
     "geom:longitude": -104.324809,
     "iata:airline": "UA",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "lbl:latitude": 37.619367,
     "lbl:longitude": -122.38387,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102534155,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N460UA",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +58,10 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "11437776",
+      "swim:gufi": "KI28710500"
+    },
     "wof:country": "US",
     "wof:created": 1640362342,
     "wof:geomhash": "c95405ad82a47404b222d64c163ad7d9",
@@ -81,12 +95,13 @@
     ],
     "wof:id": 1746881507,
     "wof:involves": [
-      102527513,
-      102534155,
       1159285413,
-      1745882317
+      1745882317,
+      1159292085,
+      102527513,
+      102534155
     ],
-    "wof:lastmodified": 1640362342,
+    "wof:lastmodified": 1640363056,
     "wof:name": "UA500 (IND-SFO)",
     "wof:parent_id": 1745882317,
     "wof:placetype": "custom",

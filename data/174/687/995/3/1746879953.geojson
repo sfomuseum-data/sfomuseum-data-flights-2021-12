@@ -2,10 +2,12 @@
   "id": 1746879953,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-12-23",
+    "date:cessation_upper": "2021-12-23",
     "date:inception_lower": "2021-12-23",
     "date:inception_upper": "2021-12-23",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-12-23",
+    "edtf:cessation": "2021-12-23T15:15:14Z",
+    "edtf:inception": "2021-12-23T14:22:00Z",
     "flysfo:actual_timestamp": 1640274000,
     "flysfo:airline": "AS",
     "flysfo:date": "2021-12-23",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.780291500000004,
     "geom:longitude": -120.38022649999999,
     "iata:airline": "AS",
+    "icao:aircraft": "A320",
     "icao:airline": "ASA",
     "lbl:latitude": 37.61705,
     "lbl:longitude": -122.380838,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102533795,
@@ -34,6 +38,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path"
+    ],
+    "swim:tail_number": "N845VA",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +56,9 @@
       1745882085,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "11446720"
+    },
     "wof:country": "US",
     "wof:created": 1640361949,
     "wof:geomhash": "f16008bc2ad68c6d1bc593247c6c74a9",
@@ -81,12 +92,13 @@
     ],
     "wof:id": 1746879953,
     "wof:involves": [
+      1159292085,
       102527513,
       102533795,
       1159283813,
       1745882103
     ],
-    "wof:lastmodified": 1640361949,
+    "wof:lastmodified": 1640363047,
     "wof:name": "AS325 (LAX-SFO)",
     "wof:parent_id": 1745882103,
     "wof:placetype": "custom",

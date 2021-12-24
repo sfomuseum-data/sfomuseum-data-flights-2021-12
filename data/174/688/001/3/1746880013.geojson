@@ -2,10 +2,12 @@
   "id": 1746880013,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-12-23",
+    "date:cessation_upper": "2021-12-23",
     "date:inception_lower": "2021-12-23",
     "date:inception_upper": "2021-12-23",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-12-23",
+    "edtf:cessation": "2021-12-23T21:01:53Z",
+    "edtf:inception": "2021-12-23T14:11:00Z",
     "flysfo:actual_timestamp": 1640304000,
     "flysfo:airline": "AS",
     "flysfo:date": "2021-12-23",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.1546165,
     "geom:longitude": -98.2742345,
     "iata:airline": "AS",
+    "icao:aircraft": "B738",
     "icao:airline": "ASA",
     "lbl:latitude": 37.617532,
     "lbl:longitude": -122.382384,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102530049,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N597AS",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +57,9 @@
       1745882085,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "11442499"
+    },
     "wof:country": "US",
     "wof:created": 1640361964,
     "wof:geomhash": "5afbf99c4360a00cfc0890f48cccf304",
@@ -81,12 +93,13 @@
     ],
     "wof:id": 1746880013,
     "wof:involves": [
-      102527513,
-      102530049,
       1159283813,
-      1745882121
+      1745882121,
+      1159289871,
+      102527513,
+      102530049
     ],
-    "wof:lastmodified": 1640361964,
+    "wof:lastmodified": 1640363042,
     "wof:name": "AS363 (EWR-SFO)",
     "wof:parent_id": 1745882121,
     "wof:placetype": "custom",
