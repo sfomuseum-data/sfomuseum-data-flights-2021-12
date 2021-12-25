@@ -2,10 +2,12 @@
   "id": 1746888863,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-12-24",
+    "date:cessation_upper": "2021-12-24",
     "date:inception_lower": "2021-12-24",
     "date:inception_upper": "2021-12-24",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-12-24",
+    "edtf:cessation": "2021-12-24T08:44:52Z",
+    "edtf:inception": "2021-12-24T07:26:00Z",
     "flysfo:actual_timestamp": 1640390400,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-12-24",
@@ -48,6 +50,9 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "11520015"
+    },
     "wof:country": "US",
     "wof:created": 1640449752,
     "wof:geomhash": "a0e250e9237d15725a2a6f51d6b7a6b6",
@@ -86,7 +91,7 @@
       1159285413,
       1745882277
     ],
-    "wof:lastmodified": 1640449752,
+    "wof:lastmodified": 1640449921,
     "wof:name": "UA2128 (SFO-PDX)",
     "wof:parent_id": 1745882277,
     "wof:placetype": "custom",

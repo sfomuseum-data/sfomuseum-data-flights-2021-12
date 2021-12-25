@@ -2,10 +2,12 @@
   "id": 1746886625,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-12-24",
+    "date:cessation_upper": "2021-12-24",
     "date:inception_lower": "2021-12-24",
     "date:inception_upper": "2021-12-24",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-12-24",
+    "edtf:cessation": "2021-12-24T01:32:28-08:00",
+    "edtf:inception": "2021-12-24T12:46:00Z",
     "flysfo:actual_timestamp": 1640366820,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-12-24",
@@ -21,9 +23,11 @@
     "geom:latitude": 38.674126,
     "geom:longitude": -104.324809,
     "iata:airline": "UA",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "lbl:latitude": 37.619367,
     "lbl:longitude": -122.38387,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102534155,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N415UA",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +57,10 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "11529302",
+      "swim:gufi": "KI27898601"
+    },
     "wof:country": "US",
     "wof:created": 1640448920,
     "wof:geomhash": "c95405ad82a47404b222d64c163ad7d9",
@@ -81,12 +94,13 @@
     ],
     "wof:id": 1746886625,
     "wof:involves": [
+      1745882317,
+      1159292085,
       102527513,
       102534155,
-      1159285413,
-      1745882317
+      1159285413
     ],
-    "wof:lastmodified": 1640448920,
+    "wof:lastmodified": 1640449927,
     "wof:name": "UA500 (IND-SFO)",
     "wof:parent_id": 1745882317,
     "wof:placetype": "custom",

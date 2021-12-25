@@ -2,10 +2,12 @@
   "id": 1746884749,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-12-24",
+    "date:cessation_upper": "2021-12-24",
     "date:inception_lower": "2021-12-24",
     "date:inception_upper": "2021-12-24",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-12-24",
+    "edtf:cessation": "2021-12-24T13:50:34-08:00",
+    "edtf:inception": "2021-12-24T23:51:00Z",
     "flysfo:actual_timestamp": 1640390400,
     "flysfo:airline": "AC",
     "flysfo:date": "2021-12-24",
@@ -21,9 +23,11 @@
     "geom:latitude": 40.647171,
     "geom:longitude": -100.9996425,
     "iata:airline": "AC",
+    "icao:aircraft": "A320",
     "icao:airline": "ACA",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159283597,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102555091,
@@ -34,7 +38,17 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "CFGJI",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "11500621",
+      "swim:gufi": "KP82725600"
+    },
     "wof:country": "US",
     "wof:created": 1640448242,
     "wof:geomhash": "c362a07ec1dacdc6f288623946bd8d01",
@@ -45,12 +59,12 @@
     ],
     "wof:id": 1746884749,
     "wof:involves": [
+      1159292085,
       102527513,
       102555091,
-      1159283597,
-      -1
+      1159283597
     ],
-    "wof:lastmodified": 1640448242,
+    "wof:lastmodified": 1640449915,
     "wof:name": "AC745 (YYZ-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

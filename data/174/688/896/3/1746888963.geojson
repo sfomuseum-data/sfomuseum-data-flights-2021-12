@@ -2,10 +2,12 @@
   "id": 1746888963,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-12-24",
+    "date:cessation_upper": "2021-12-24",
     "date:inception_lower": "2021-12-24",
     "date:inception_upper": "2021-12-24",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-12-24",
+    "edtf:cessation": "2021-12-24T02:11:39Z",
+    "edtf:inception": "2021-12-24T00:39:00Z",
     "flysfo:actual_timestamp": 1640390400,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-12-24",
@@ -48,6 +50,9 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "11503199"
+    },
     "wof:country": "US",
     "wof:created": 1640449787,
     "wof:geomhash": "4036ee3c983703867dbe0486453848b1",
@@ -86,7 +91,7 @@
       1159285413,
       1745882313
     ],
-    "wof:lastmodified": 1640449787,
+    "wof:lastmodified": 1640449922,
     "wof:name": "UA447 (SFO-SEA)",
     "wof:parent_id": 1745882313,
     "wof:placetype": "custom",

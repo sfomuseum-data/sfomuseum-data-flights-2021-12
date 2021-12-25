@@ -2,10 +2,12 @@
   "id": 1746886279,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-12-24",
+    "date:cessation_upper": "2021-12-24",
     "date:inception_lower": "2021-12-24",
     "date:inception_upper": "2021-12-24",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-12-24",
+    "edtf:cessation": "2021-12-24T01:50:36Z",
+    "edtf:inception": "2021-12-24T00:58:00Z",
     "flysfo:actual_timestamp": 1640390400,
     "flysfo:airline": "WN",
     "flysfo:date": "2021-12-24",
@@ -48,6 +50,9 @@
       1745882137,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "11502332"
+    },
     "wof:country": "US",
     "wof:created": 1640448795,
     "wof:geomhash": "579cc6c0d5668ba584a946b357aa3191",
@@ -86,7 +91,7 @@
       1159285591,
       1745882151
     ],
-    "wof:lastmodified": 1640448795,
+    "wof:lastmodified": 1640449925,
     "wof:name": "WN200 (BUR-SFO)",
     "wof:parent_id": 1745882151,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 1746887681,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-12-24",
+    "date:cessation_upper": "2021-12-24",
     "date:inception_lower": "2021-12-24",
     "date:inception_upper": "2021-12-24",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-12-24",
+    "edtf:cessation": "2021-12-24T20:56:25Z",
+    "edtf:inception": "2021-12-24T16:09:00Z",
     "flysfo:actual_timestamp": 1640361120,
     "flysfo:airline": "AS",
     "flysfo:date": "2021-12-24",
@@ -21,9 +23,11 @@
     "geom:latitude": 31.846425,
     "geom:longitude": -101.2547305,
     "iata:airline": "AS",
+    "icao:aircraft": "B739",
     "icao:airline": "ASA",
     "lbl:latitude": 37.617092,
     "lbl:longitude": -122.381656,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102530841,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N459AS",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +58,9 @@
       1745882085,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "11544972"
+    },
     "wof:country": "US",
     "wof:created": 1640449300,
     "wof:geomhash": "2155b19e54308f477f2a379762b2f6c8",
@@ -81,12 +94,13 @@
     ],
     "wof:id": 1746887681,
     "wof:involves": [
-      102530841,
       102527513,
       1159283813,
-      1745882095
+      1745882095,
+      1377564285,
+      102530841
     ],
-    "wof:lastmodified": 1640449300,
+    "wof:lastmodified": 1640449928,
     "wof:name": "AS346 (SFO-FLL)",
     "wof:parent_id": 1745882095,
     "wof:placetype": "custom",
