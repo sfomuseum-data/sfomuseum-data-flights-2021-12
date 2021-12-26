@@ -2,10 +2,12 @@
   "id": 1746890769,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-12-25",
+    "date:cessation_upper": "2021-12-25",
     "date:inception_lower": "2021-12-25",
     "date:inception_upper": "2021-12-25",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-12-25",
+    "edtf:cessation": "2021-12-25T13:49:06-08:00",
+    "edtf:inception": "2021-12-25T23:51:00Z",
     "flysfo:actual_timestamp": 1640476800,
     "flysfo:airline": "B6",
     "flysfo:date": "2021-12-25",
@@ -21,9 +23,11 @@
     "geom:latitude": 29.3291535,
     "geom:longitude": -104.6218995,
     "iata:airline": "B6",
+    "icao:aircraft": "A320",
     "icao:airline": "JBU",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159284583,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102536223,
@@ -34,7 +38,15 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-approach"
+    ],
+    "swim:tail_number": "N665JB",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "11637869",
+      "swim:gufi": "KA08509100"
+    },
     "wof:country": "US",
     "wof:created": 1640535043,
     "wof:geomhash": "c1b858affbd20b2c728ba535a4ce178e",
@@ -45,12 +57,12 @@
     ],
     "wof:id": 1746890769,
     "wof:involves": [
+      1159292085,
       102527513,
       102536223,
-      1159284583,
-      -1
+      1159284583
     ],
-    "wof:lastmodified": 1640535043,
+    "wof:lastmodified": 1640536340,
     "wof:name": "B62241 (CUN-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

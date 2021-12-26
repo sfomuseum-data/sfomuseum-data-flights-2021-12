@@ -2,10 +2,12 @@
   "id": 1746893865,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-12-25",
+    "date:cessation_upper": "2021-12-25",
     "date:inception_lower": "2021-12-25",
     "date:inception_upper": "2021-12-25",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-12-25",
+    "edtf:cessation": "2021-12-25T11:20:38Z",
+    "edtf:inception": "2021-12-25T06:51:00Z",
     "flysfo:actual_timestamp": 1640476800,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-12-25",
@@ -48,6 +50,9 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "11594620"
+    },
     "wof:country": "US",
     "wof:created": 1640536194,
     "wof:geomhash": "33c9625a4901edf29154e5ec4b308b8b",
@@ -86,7 +91,7 @@
       1159285413,
       1745882305
     ],
-    "wof:lastmodified": 1640536194,
+    "wof:lastmodified": 1640536345,
     "wof:name": "UA2440 (SFO-MCO)",
     "wof:parent_id": 1745882305,
     "wof:placetype": "custom",

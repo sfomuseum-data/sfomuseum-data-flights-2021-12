@@ -2,10 +2,12 @@
   "id": 1746891471,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-12-25",
+    "date:cessation_upper": "2021-12-25",
     "date:inception_lower": "2021-12-25",
     "date:inception_upper": "2021-12-25",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-12-25",
+    "edtf:cessation": "2021-12-25T00:08:59-08:00",
+    "edtf:inception": "2021-12-25T15:02:00Z",
     "flysfo:actual_timestamp": 1640450520,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-12-25",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.647857,
     "geom:longitude": -120.1186115,
     "iata:airline": "UA",
+    "icao:aircraft": "B738",
     "icao:airline": "UAL",
     "lbl:latitude": 37.618486,
     "lbl:longitude": -122.384457,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102534161,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N38257",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +58,10 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "11608121",
+      "swim:gufi": "KL46534701"
+    },
     "wof:country": "US",
     "wof:created": 1640535296,
     "wof:geomhash": "01009f732d03a7803d3f7fd23cf321f4",
@@ -84,9 +98,10 @@
       102527513,
       102534161,
       1159285413,
-      1745882303
+      1745882303,
+      1159289871
     ],
-    "wof:lastmodified": 1640535296,
+    "wof:lastmodified": 1640536347,
     "wof:name": "UA2332 (SNA-SFO)",
     "wof:parent_id": 1745882303,
     "wof:placetype": "custom",

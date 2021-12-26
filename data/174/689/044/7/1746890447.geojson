@@ -2,10 +2,12 @@
   "id": 1746890447,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2021-12-25",
-    "date:inception_upper": "2021-12-25",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-12-25",
+    "date:cessation_lower": "2021-12-25",
+    "date:cessation_upper": "2021-12-25",
+    "date:inception_lower": "2021-12-26",
+    "date:inception_upper": "2021-12-26",
+    "edtf:cessation": "2021-12-25T09:00:00Z",
+    "edtf:inception": "2021-12-26T02:18:00Z",
     "flysfo:actual_timestamp": 1640476800,
     "flysfo:airline": "DL",
     "flysfo:date": "2021-12-25",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.130638000000005,
     "geom:longitude": -98.07939400000001,
     "iata:airline": "DL",
+    "icao:aircraft": "B763",
     "icao:airline": "DAL",
     "lbl:latitude": 37.618249,
     "lbl:longitude": -122.381477,
+    "sfomuseum:aircraft_id": 1159289965,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102534365,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N173DZ",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +57,9 @@
       1745882085,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "11588511"
+    },
     "wof:country": "US",
     "wof:created": 1640534928,
     "wof:geomhash": "ba4d31d1826c6198b5ffa8fdb1249c5d",
@@ -84,9 +96,10 @@
       102527513,
       102534365,
       1159284261,
-      1745882115
+      1745882115,
+      1159289965
     ],
-    "wof:lastmodified": 1640534928,
+    "wof:lastmodified": 1640536338,
     "wof:name": "DL314 (JFK-SFO)",
     "wof:parent_id": 1745882115,
     "wof:placetype": "custom",

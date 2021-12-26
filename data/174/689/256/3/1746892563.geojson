@@ -2,10 +2,12 @@
   "id": 1746892563,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-12-25",
+    "date:cessation_upper": "2021-12-25",
     "date:inception_lower": "2021-12-25",
     "date:inception_upper": "2021-12-25",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-12-25",
+    "edtf:cessation": "2021-12-25T12:10:12Z",
+    "edtf:inception": "2021-12-25T07:43:00Z",
     "flysfo:actual_timestamp": 1640476800,
     "flysfo:airline": "AS",
     "flysfo:date": "2021-12-25",
@@ -48,6 +50,9 @@
       1745882085,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "11595140"
+    },
     "wof:country": "US",
     "wof:created": 1640535695,
     "wof:geomhash": "1348792a172720778d3219cc18ccd8ee",
@@ -86,7 +91,7 @@
       1159283813,
       1745882105
     ],
-    "wof:lastmodified": 1640535695,
+    "wof:lastmodified": 1640536350,
     "wof:name": "AS254 (SFO-JFK)",
     "wof:parent_id": 1745882105,
     "wof:placetype": "custom",

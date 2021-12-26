@@ -2,10 +2,12 @@
   "id": 1746890059,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-12-25",
+    "date:cessation_upper": "2021-12-25",
     "date:inception_lower": "2021-12-25",
     "date:inception_upper": "2021-12-25",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-12-25",
+    "edtf:cessation": "2021-12-25T01:09:13Z",
+    "edtf:inception": "2021-12-25T00:01:00Z",
     "flysfo:actual_timestamp": 1640476800,
     "flysfo:airline": "AS",
     "flysfo:date": "2021-12-25",
@@ -48,6 +50,9 @@
       1745882085,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "11582506"
+    },
     "wof:country": "US",
     "wof:created": 1640534788,
     "wof:geomhash": "fcf5095e8d1a14d003993bc5070a7f0f",
@@ -86,7 +91,7 @@
       1159283813,
       1745882095
     ],
-    "wof:lastmodified": 1640534788,
+    "wof:lastmodified": 1640536335,
     "wof:name": "AS190 (LAS-SFO)",
     "wof:parent_id": 1745882095,
     "wof:placetype": "custom",

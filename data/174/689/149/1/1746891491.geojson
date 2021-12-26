@@ -2,10 +2,12 @@
   "id": 1746891491,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-12-25",
+    "date:cessation_upper": "2021-12-25",
     "date:inception_lower": "2021-12-25",
     "date:inception_upper": "2021-12-25",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-12-25",
+    "edtf:cessation": "2021-12-25T02:00:23Z",
+    "edtf:inception": "2021-12-25T00:55:00Z",
     "flysfo:actual_timestamp": 1640476800,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-12-25",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.175762,
     "geom:longitude": -119.778435,
     "iata:airline": "UA",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "lbl:latitude": 37.617477,
     "lbl:longitude": -122.388302,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102528997,
@@ -48,6 +52,10 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "11581122",
+      "swim:gufi": "KL78425600"
+    },
     "wof:country": "US",
     "wof:created": 1640535303,
     "wof:geomhash": "d1d4873ced1d6ea3128e45b0b2070718",
@@ -81,12 +89,13 @@
     ],
     "wof:id": 1746891491,
     "wof:involves": [
+      1159289407,
       102527513,
       102528997,
       1159285413,
       1745882247
     ],
-    "wof:lastmodified": 1640535303,
+    "wof:lastmodified": 1640536347,
     "wof:name": "UA2481 (SAN-SFO)",
     "wof:parent_id": 1745882247,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 1746892229,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-12-25",
+    "date:cessation_upper": "2021-12-25",
     "date:inception_lower": "2021-12-25",
     "date:inception_upper": "2021-12-25",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-12-25",
+    "edtf:cessation": "2021-12-25T12:29:21Z",
+    "edtf:inception": "2021-12-25T08:43:00Z",
     "flysfo:actual_timestamp": 1640476800,
     "flysfo:airline": "AM",
     "flysfo:date": "2021-12-25",
@@ -21,9 +23,11 @@
     "geom:latitude": 28.524645999999997,
     "geom:longitude": -110.7258735,
     "iata:airline": "AM",
+    "icao:aircraft": "B738",
     "icao:airline": "AMX",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159283539,
     "sfomuseum:arrival_id": 102536579,
     "sfomuseum:departure_id": 102527513,
@@ -34,7 +38,15 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N377AR",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "11596210"
+    },
     "wof:country": "US",
     "wof:created": 1640535567,
     "wof:geomhash": "01999c4327be8e36df88ffd5cda77111",
@@ -45,12 +57,12 @@
     ],
     "wof:id": 1746892229,
     "wof:involves": [
-      102536579,
-      102527513,
       1159283539,
-      -1
+      1159289871,
+      102536579,
+      102527513
     ],
-    "wof:lastmodified": 1640535567,
+    "wof:lastmodified": 1640536350,
     "wof:name": "AM1665 (SFO-MEX)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

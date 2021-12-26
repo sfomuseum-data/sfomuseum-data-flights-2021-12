@@ -2,10 +2,12 @@
   "id": 1746893723,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-12-25",
+    "date:cessation_upper": "2021-12-25",
     "date:inception_lower": "2021-12-25",
     "date:inception_upper": "2021-12-25",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-12-25",
+    "edtf:cessation": "2021-12-25T21:46:15Z",
+    "edtf:inception": "2021-12-25T17:05:00Z",
     "flysfo:actual_timestamp": 1640476800,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-12-25",
@@ -21,9 +23,11 @@
     "geom:latitude": 31.70423,
     "geom:longitude": -101.3334745,
     "iata:airline": "UA",
+    "icao:aircraft": "B39M",
     "icao:airline": "UAL",
     "lbl:latitude": 37.619425,
     "lbl:longitude": -122.384028,
+    "sfomuseum:aircraft_id": 1528104577,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102531023,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N37508",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +57,10 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "11613819",
+      "swim:gufi": "KO48107700"
+    },
     "wof:country": "US",
     "wof:created": 1640536140,
     "wof:geomhash": "05e474f4bf1eb5ae110c20d94aac828f",
@@ -81,12 +94,13 @@
     ],
     "wof:id": 1746893723,
     "wof:involves": [
+      1528104577,
       102531023,
       102527513,
       1159285413,
       1745882321
     ],
-    "wof:lastmodified": 1640536140,
+    "wof:lastmodified": 1640536353,
     "wof:name": "UA1668 (SFO-MIA)",
     "wof:parent_id": 1745882321,
     "wof:placetype": "custom",
