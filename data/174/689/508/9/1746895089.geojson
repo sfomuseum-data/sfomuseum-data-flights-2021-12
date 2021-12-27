@@ -2,10 +2,12 @@
   "id": 1746895089,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-12-26",
+    "date:cessation_upper": "2021-12-26",
     "date:inception_lower": "2021-12-26",
     "date:inception_upper": "2021-12-26",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-12-26",
+    "edtf:cessation": "2021-12-26T09:00:53Z",
+    "edtf:inception": "2021-12-26T02:20:00Z",
     "flysfo:actual_timestamp": 1640563200,
     "flysfo:airline": "AS",
     "flysfo:date": "2021-12-26",
@@ -48,6 +50,9 @@
       1745882085,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "11640461"
+    },
     "wof:country": "US",
     "wof:created": 1640621216,
     "wof:geomhash": "5afbf99c4360a00cfc0890f48cccf304",
@@ -86,7 +91,7 @@
       1159283813,
       1745882101
     ],
-    "wof:lastmodified": 1640621216,
+    "wof:lastmodified": 1640622705,
     "wof:name": "AS345 (EWR-SFO)",
     "wof:parent_id": 1745882101,
     "wof:placetype": "custom",

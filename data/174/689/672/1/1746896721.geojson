@@ -2,10 +2,12 @@
   "id": 1746896721,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-12-26",
+    "date:cessation_upper": "2021-12-26",
     "date:inception_lower": "2021-12-26",
     "date:inception_upper": "2021-12-26",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-12-26",
+    "edtf:cessation": "2021-12-26T02:11:44-08:00",
+    "edtf:inception": "2021-12-26T11:33:00Z",
     "flysfo:actual_timestamp": 1640541420,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-12-26",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.1546165,
     "geom:longitude": -98.2742345,
     "iata:airline": "UA",
+    "icao:aircraft": "B763",
     "icao:airline": "UAL",
     "lbl:latitude": 37.620791,
     "lbl:longitude": -122.390014,
+    "sfomuseum:aircraft_id": 1159289965,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102530049,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N676UA",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +58,10 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "11651103",
+      "swim:gufi": "KN27947100"
+    },
     "wof:country": "US",
     "wof:created": 1640621798,
     "wof:geomhash": "5afbf99c4360a00cfc0890f48cccf304",
@@ -81,12 +95,13 @@
     ],
     "wof:id": 1746896721,
     "wof:involves": [
+      1159289965,
       102527513,
       102530049,
       1159285413,
       1745882285
     ],
-    "wof:lastmodified": 1640621798,
+    "wof:lastmodified": 1640622717,
     "wof:name": "UA788 (EWR-SFO)",
     "wof:parent_id": 1745882285,
     "wof:placetype": "custom",
