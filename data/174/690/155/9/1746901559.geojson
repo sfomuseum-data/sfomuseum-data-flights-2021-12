@@ -2,10 +2,12 @@
   "id": 1746901559,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-12-27",
+    "date:cessation_upper": "2021-12-27",
     "date:inception_lower": "2021-12-27",
     "date:inception_upper": "2021-12-27",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-12-27",
+    "edtf:cessation": "2021-12-27T09:15:00Z",
+    "edtf:inception": "2021-12-27T06:38:00Z",
     "flysfo:actual_timestamp": 1640649600,
     "flysfo:airline": "WN",
     "flysfo:date": "2021-12-27",
@@ -35,6 +37,9 @@
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "11699421"
+    },
     "wof:country": "US",
     "wof:created": 1640707825,
     "wof:geomhash": "8fe6791c85dc44fbddffd72416ea0024",
@@ -50,7 +55,7 @@
       1159285591,
       -1
     ],
-    "wof:lastmodified": 1640707825,
+    "wof:lastmodified": 1640708612,
     "wof:name": "WN423 (ABQ-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

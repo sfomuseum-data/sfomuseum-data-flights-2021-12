@@ -2,10 +2,12 @@
   "id": 1746901771,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-12-27",
+    "date:cessation_upper": "2021-12-27",
     "date:inception_lower": "2021-12-27",
     "date:inception_upper": "2021-12-27",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-12-27",
+    "edtf:cessation": "2021-12-27T11:01:50-08:00",
+    "edtf:inception": "2021-12-27T23:15:00Z",
     "flysfo:actual_timestamp": 1640649600,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-12-27",
@@ -21,9 +23,11 @@
     "geom:latitude": 33.797588,
     "geom:longitude": -108.8546935,
     "iata:airline": "UA",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "lbl:latitude": 37.617835,
     "lbl:longitude": -122.388019,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102534097,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N455UA",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +58,10 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "11751380",
+      "swim:gufi": "KH72364200"
+    },
     "wof:country": "US",
     "wof:created": 1640707880,
     "wof:geomhash": "25dc9d98eae1cd54f40654c6c4fb6929",
@@ -84,9 +98,10 @@
       102527513,
       102534097,
       1159285413,
-      1745882249
+      1745882249,
+      1159292085
     ],
-    "wof:lastmodified": 1640707880,
+    "wof:lastmodified": 1640708614,
     "wof:name": "UA2034 (IAH-SFO)",
     "wof:parent_id": 1745882249,
     "wof:placetype": "custom",

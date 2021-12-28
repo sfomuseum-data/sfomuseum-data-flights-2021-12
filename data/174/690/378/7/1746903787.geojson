@@ -2,10 +2,12 @@
   "id": 1746903787,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-12-27",
+    "date:cessation_upper": "2021-12-27",
     "date:inception_lower": "2021-12-27",
     "date:inception_upper": "2021-12-27",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-12-27",
+    "edtf:cessation": "2021-12-27T23:04:00Z",
+    "edtf:inception": "2021-12-27T20:13:00Z",
     "flysfo:actual_timestamp": 1640649600,
     "flysfo:airline": "SY",
     "flysfo:date": "2021-12-27",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.302341999999996,
     "geom:longitude": -109.843519,
     "iata:airline": "SY",
+    "icao:aircraft": "B738",
     "icao:airline": "SCX",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285227,
     "sfomuseum:arrival_id": 102528591,
     "sfomuseum:departure_id": 102527513,
@@ -34,7 +38,15 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N8059A",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "11801272"
+    },
     "wof:country": "US",
     "wof:created": 1640708391,
     "wof:geomhash": "15b112f2955ad354f72c3865722bb247",
@@ -45,12 +57,12 @@
     ],
     "wof:id": 1746903787,
     "wof:involves": [
+      1159289871,
       102528591,
       102527513,
-      1159285227,
-      -1
+      1159285227
     ],
-    "wof:lastmodified": 1640708391,
+    "wof:lastmodified": 1640708609,
     "wof:name": "SY3009 (SFO-AFW)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

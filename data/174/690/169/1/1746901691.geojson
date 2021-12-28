@@ -2,10 +2,12 @@
   "id": 1746901691,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-12-27",
+    "date:cessation_upper": "2021-12-27",
     "date:inception_lower": "2021-12-27",
     "date:inception_upper": "2021-12-27",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-12-27",
+    "edtf:cessation": "2021-12-27T13:22:56-08:00",
+    "edtf:inception": "2021-12-27T23:23:00Z",
     "flysfo:actual_timestamp": 1640649600,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-12-27",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.1546165,
     "geom:longitude": -98.2742345,
     "iata:airline": "UA",
+    "icao:aircraft": "B764",
     "icao:airline": "UAL",
     "lbl:latitude": 37.620304,
     "lbl:longitude": -122.388827,
+    "sfomuseum:aircraft_id": 1394298249,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102530049,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N69063",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +58,10 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "11749944",
+      "swim:gufi": "KP04279300"
+    },
     "wof:country": "US",
     "wof:created": 1640707859,
     "wof:geomhash": "5afbf99c4360a00cfc0890f48cccf304",
@@ -81,12 +95,13 @@
     ],
     "wof:id": 1746901691,
     "wof:involves": [
+      1394298249,
       102527513,
       102530049,
       1159285413,
       1745882279
     ],
-    "wof:lastmodified": 1640707859,
+    "wof:lastmodified": 1640708613,
     "wof:name": "UA1545 (EWR-SFO)",
     "wof:parent_id": 1745882279,
     "wof:placetype": "custom",

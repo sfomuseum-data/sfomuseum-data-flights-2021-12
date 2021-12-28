@@ -2,10 +2,12 @@
   "id": 1746900451,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2021-12-27",
-    "date:inception_upper": "2021-12-27",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-12-27",
+    "date:cessation_lower": "2021-12-27",
+    "date:cessation_upper": "2021-12-27",
+    "date:inception_lower": "1970-01-01",
+    "date:inception_upper": "1970-01-01",
+    "edtf:cessation": "2021-12-27T14:25:17-08:00",
+    "edtf:inception": "1970-01-01T00:00:00Z",
     "flysfo:actual_timestamp": 1640649600,
     "flysfo:airline": "AS",
     "flysfo:date": "2021-12-27",
@@ -21,9 +23,11 @@
     "geom:latitude": 31.846425,
     "geom:longitude": -101.2547305,
     "iata:airline": "AS",
+    "icao:aircraft": "B739",
     "icao:airline": "ASA",
     "lbl:latitude": 37.617092,
     "lbl:longitude": -122.381656,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102530841,
@@ -34,6 +38,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-approach"
+    ],
+    "swim:tail_number": "N282AK",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -84,9 +92,10 @@
       102527513,
       102530841,
       1159283813,
-      1745882095
+      1745882095,
+      1377564285
     ],
-    "wof:lastmodified": 1640707541,
+    "wof:lastmodified": 1640708601,
     "wof:name": "AS347 (FLL-SFO)",
     "wof:parent_id": 1745882095,
     "wof:placetype": "custom",

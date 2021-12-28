@@ -2,10 +2,12 @@
   "id": 1746901867,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-12-27",
+    "date:cessation_upper": "2021-12-27",
     "date:inception_lower": "2021-12-27",
     "date:inception_upper": "2021-12-27",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-12-27",
+    "edtf:cessation": "2021-12-27T03:21:05-08:00",
+    "edtf:inception": "2021-12-27T13:50:00Z",
     "flysfo:actual_timestamp": 1640649600,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-12-27",
@@ -21,9 +23,11 @@
     "geom:latitude": 33.0247425,
     "geom:longitude": -101.83923999999999,
     "iata:airline": "UA",
+    "icao:aircraft": "B39M",
     "icao:airline": "UAL",
     "lbl:latitude": 37.618874,
     "lbl:longitude": -122.38419,
+    "sfomuseum:aircraft_id": 1528104577,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102533657,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N37525",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +58,10 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "11712620",
+      "swim:gufi": "KJ37288200"
+    },
     "wof:country": "US",
     "wof:created": 1640707906,
     "wof:geomhash": "5fe9a4073f558f5d433cae4f846ab71e",
@@ -84,9 +98,10 @@
       102527513,
       102533657,
       1159285413,
-      1745882309
+      1745882309,
+      1528104577
     ],
-    "wof:lastmodified": 1640707906,
+    "wof:lastmodified": 1640708615,
     "wof:name": "UA470 (MCO-SFO)",
     "wof:parent_id": 1745882309,
     "wof:placetype": "custom",

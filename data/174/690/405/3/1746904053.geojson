@@ -2,10 +2,12 @@
   "id": 1746904053,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-12-28",
+    "date:cessation_upper": "2021-12-28",
     "date:inception_lower": "2021-12-27",
     "date:inception_upper": "2021-12-27",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-12-27",
+    "edtf:cessation": "2021-12-28T05:20:00Z",
+    "edtf:inception": "2021-12-27T12:15:07-08:00",
     "flysfo:actual_timestamp": 1640649600,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-12-27",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.175762,
     "geom:longitude": -119.778435,
     "iata:airline": "UA",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "lbl:latitude": 37.617835,
     "lbl:longitude": -122.388019,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102528997,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N455UA",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +57,9 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KO65889200"
+    },
     "wof:country": "US",
     "wof:created": 1640708461,
     "wof:geomhash": "25f5345529d944df781e36098260a435",
@@ -81,12 +93,13 @@
     ],
     "wof:id": 1746904053,
     "wof:involves": [
+      1745882249,
+      1159292085,
       102528997,
       102527513,
-      1159285413,
-      1745882249
+      1159285413
     ],
-    "wof:lastmodified": 1640708461,
+    "wof:lastmodified": 1640708609,
     "wof:name": "UA1687 (SFO-SAN)",
     "wof:parent_id": 1745882249,
     "wof:placetype": "custom",
