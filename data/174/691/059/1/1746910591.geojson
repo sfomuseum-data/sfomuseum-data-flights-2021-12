@@ -2,10 +2,12 @@
   "id": 1746910591,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-12-28",
+    "date:cessation_upper": "2021-12-28",
     "date:inception_lower": "2021-12-28",
     "date:inception_upper": "2021-12-28",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-12-28",
+    "edtf:cessation": "2021-12-28T18:22:00Z",
+    "edtf:inception": "2021-12-28T17:18:00Z",
     "flysfo:actual_timestamp": 1640711460,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-12-28",
@@ -21,9 +23,11 @@
     "geom:latitude": 36.8494965,
     "geom:longitude": -118.7636915,
     "iata:airline": "UA",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "lbl:latitude": 37.618578,
     "lbl:longitude": -122.385434,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527209,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N839UA",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +58,10 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "11801260",
+      "swim:gufi": "KO54573300"
+    },
     "wof:country": "US",
     "wof:created": 1640794929,
     "wof:geomhash": "ccf694144ef1f7a2823fe9bc7c6018ea",
@@ -84,9 +98,10 @@
       102527209,
       102527513,
       1159285413,
-      1745882245
+      1745882245,
+      1159289407
     ],
-    "wof:lastmodified": 1640794929,
+    "wof:lastmodified": 1640795053,
     "wof:name": "UA2239 (SFO-LAS)",
     "wof:parent_id": 1745882245,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 1746908377,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-12-29",
+    "date:cessation_upper": "2021-12-29",
     "date:inception_lower": "2021-12-28",
     "date:inception_upper": "2021-12-28",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-12-28",
+    "edtf:cessation": "2021-12-28T23:05:09-08:00",
+    "edtf:inception": "2021-12-28T13:15:00Z",
     "flysfo:actual_timestamp": 1640703780,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-12-28",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.525337,
     "geom:longitude": -117.19416749999999,
     "iata:airline": "UA",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "lbl:latitude": 37.621076,
     "lbl:longitude": -122.390239,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102526751,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N830UA",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +57,10 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "11782922",
+      "swim:gufi": "KA29639300"
+    },
     "wof:country": "US",
     "wof:created": 1640794367,
     "wof:geomhash": "c9fdc5df38b6a105de4fe30ae6ada830",
@@ -81,12 +94,13 @@
     ],
     "wof:id": 1746908377,
     "wof:involves": [
+      1159289407,
       102527513,
       102526751,
       1159285413,
       1745882293
     ],
-    "wof:lastmodified": 1640794367,
+    "wof:lastmodified": 1640795064,
     "wof:name": "UA549 (PHX-SFO)",
     "wof:parent_id": 1745882293,
     "wof:placetype": "custom",

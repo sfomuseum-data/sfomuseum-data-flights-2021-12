@@ -2,10 +2,12 @@
   "id": 1746908095,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-12-28",
+    "date:cessation_upper": "2021-12-28",
     "date:inception_lower": "2021-12-28",
     "date:inception_upper": "2021-12-28",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-12-28",
+    "edtf:cessation": "2021-12-28T08:40:36-08:00",
+    "edtf:inception": "2021-12-28T21:09:00Z",
     "flysfo:actual_timestamp": 1640736000,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-12-28",
@@ -21,9 +23,11 @@
     "geom:latitude": 29.139362,
     "geom:longitude": -113.8106995,
     "iata:airline": "UA",
+    "icao:aircraft": "B738",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102536481,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N14214",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +57,10 @@
       1745882335,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "11819446",
+      "swim:gufi": "KL83475300"
+    },
     "wof:country": "US",
     "wof:created": 1640794294,
     "wof:geomhash": "87e43b321087b5e7d68ac47fe0a6e824",
@@ -81,12 +94,13 @@
     ],
     "wof:id": 1746908095,
     "wof:involves": [
+      1159289871,
       102527513,
       102536481,
       1159285413,
       1745882429
     ],
-    "wof:lastmodified": 1640794294,
+    "wof:lastmodified": 1640795061,
     "wof:name": "UA1243 (PVR-SFO)",
     "wof:parent_id": 1745882429,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 1746909409,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-12-28",
+    "date:cessation_upper": "2021-12-28",
     "date:inception_lower": "2021-12-28",
     "date:inception_upper": "2021-12-28",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-12-28",
+    "edtf:cessation": "2021-12-28T20:08:57Z",
+    "edtf:inception": "2021-12-28T15:13:00Z",
     "flysfo:actual_timestamp": 1640705100,
     "flysfo:airline": "AS",
     "flysfo:date": "2021-12-28",
@@ -48,6 +50,9 @@
       1745882085,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "11790677"
+    },
     "wof:country": "US",
     "wof:created": 1640794625,
     "wof:geomhash": "ff961493fc59fc665836e174da62aa8e",
@@ -86,7 +91,7 @@
       1159283813,
       1745882103
     ],
-    "wof:lastmodified": 1640794625,
+    "wof:lastmodified": 1640795066,
     "wof:name": "AS743 (SFO-HNL)",
     "wof:parent_id": 1745882103,
     "wof:placetype": "custom",

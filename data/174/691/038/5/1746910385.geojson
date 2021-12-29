@@ -2,10 +2,12 @@
   "id": 1746910385,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-12-28",
+    "date:cessation_upper": "2021-12-28",
     "date:inception_lower": "2021-12-28",
     "date:inception_upper": "2021-12-28",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-12-28",
+    "edtf:cessation": "2021-12-28T11:24:50Z",
+    "edtf:inception": "2021-12-28T01:11:00Z",
     "flysfo:actual_timestamp": 1640736000,
     "flysfo:airline": "TP",
     "flysfo:date": "2021-12-28",
@@ -48,6 +50,9 @@
       1745882335,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "11760278"
+    },
     "wof:country": "US",
     "wof:created": 1640794877,
     "wof:geomhash": "d52bb0a5cfa06eebb6a938b29d78a44d",
@@ -86,7 +91,7 @@
       1159285271,
       1745882411
     ],
-    "wof:lastmodified": 1640794877,
+    "wof:lastmodified": 1640795051,
     "wof:name": "TP236 (SFO-LIS)",
     "wof:parent_id": 1745882411,
     "wof:placetype": "custom",
