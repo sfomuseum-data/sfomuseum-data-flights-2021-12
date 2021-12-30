@@ -2,10 +2,12 @@
   "id": 1746915919,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2021-12-29",
-    "date:inception_upper": "2021-12-29",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-12-29",
+    "date:cessation_lower": "2021-12-30",
+    "date:cessation_upper": "2021-12-30",
+    "date:inception_lower": "2021-12-30",
+    "date:inception_upper": "2021-12-30",
+    "edtf:cessation": "2021-12-30T05:29:00Z",
+    "edtf:inception": "2021-12-30T03:38:00Z",
     "flysfo:actual_timestamp": 1640822400,
     "flysfo:airline": "AS",
     "flysfo:date": "2021-12-29",
@@ -21,9 +23,11 @@
     "geom:latitude": 42.529906499999996,
     "geom:longitude": -122.3376055,
     "iata:airline": "AS",
+    "icao:aircraft": "A320",
     "icao:airline": "ASA",
     "lbl:latitude": 37.616825,
     "lbl:longitude": -122.381021,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102533269,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N839VA",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -81,12 +90,13 @@
     ],
     "wof:id": 1746915919,
     "wof:involves": [
-      102533269,
-      102527513,
       1159283813,
-      1745882099
+      1745882099,
+      1159292085,
+      102533269,
+      102527513
     ],
-    "wof:lastmodified": 1640880948,
+    "wof:lastmodified": 1640881419,
     "wof:name": "AS1056 (SFO-SEA)",
     "wof:parent_id": 1745882099,
     "wof:placetype": "custom",

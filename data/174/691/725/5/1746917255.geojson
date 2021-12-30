@@ -2,10 +2,12 @@
   "id": 1746917255,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-12-30",
+    "date:cessation_upper": "2021-12-30",
     "date:inception_lower": "2021-12-29",
     "date:inception_upper": "2021-12-29",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-12-29",
+    "edtf:cessation": "2021-12-30T04:38:00Z",
+    "edtf:inception": "2021-12-29T03:26:00Z",
     "flysfo:actual_timestamp": 1640822400,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-12-29",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.525337,
     "geom:longitude": -117.19416749999999,
     "iata:airline": "UA",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102526751,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N448UA",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +57,10 @@
       1745882335,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "11839377",
+      "swim:gufi": "KO02108500"
+    },
     "wof:country": "US",
     "wof:created": 1640881289,
     "wof:geomhash": "2a19f056fd5d16c52f22f1bf5dc85c9c",
@@ -81,12 +94,13 @@
     ],
     "wof:id": 1746917255,
     "wof:involves": [
+      1159292085,
       102526751,
       102527513,
       1159285413,
       1745882429
     ],
-    "wof:lastmodified": 1640881289,
+    "wof:lastmodified": 1640881422,
     "wof:name": "UA2271 (SFO-PHX)",
     "wof:parent_id": 1745882429,
     "wof:placetype": "custom",

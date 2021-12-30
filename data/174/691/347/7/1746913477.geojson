@@ -2,10 +2,12 @@
   "id": 1746913477,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-12-29",
+    "date:cessation_upper": "2021-12-29",
     "date:inception_lower": "2021-12-29",
     "date:inception_upper": "2021-12-29",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-12-29",
+    "edtf:cessation": "2021-12-29T15:16:00Z",
+    "edtf:inception": "2021-12-29T14:17:00Z",
     "flysfo:actual_timestamp": 1640792400,
     "flysfo:airline": "AS",
     "flysfo:date": "2021-12-29",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.780291500000004,
     "geom:longitude": -120.38022649999999,
     "iata:airline": "AS",
+    "icao:aircraft": "A320",
     "icao:airline": "ASA",
     "lbl:latitude": 37.61705,
     "lbl:longitude": -122.380838,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102533795,
@@ -34,6 +38,7 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "swim:tail_number": "N630VA",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +53,9 @@
       1745882085,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "11860225"
+    },
     "wof:country": "US",
     "wof:created": 1640880333,
     "wof:geomhash": "f16008bc2ad68c6d1bc593247c6c74a9",
@@ -84,9 +92,10 @@
       102527513,
       102533795,
       1159283813,
-      1745882103
+      1745882103,
+      1159292085
     ],
-    "wof:lastmodified": 1640880333,
+    "wof:lastmodified": 1640881423,
     "wof:name": "AS325 (LAX-SFO)",
     "wof:parent_id": 1745882103,
     "wof:placetype": "custom",
