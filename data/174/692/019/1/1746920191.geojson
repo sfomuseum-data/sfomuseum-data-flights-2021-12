@@ -2,10 +2,12 @@
   "id": 1746920191,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-12-30",
+    "date:cessation_upper": "2021-12-30",
     "date:inception_lower": "2021-12-30",
     "date:inception_upper": "2021-12-30",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-12-30",
+    "edtf:cessation": "2021-12-30T03:43:43-08:00",
+    "edtf:inception": "2021-12-30T18:12:00Z",
     "flysfo:actual_timestamp": 1640893860,
     "flysfo:airline": "AS",
     "flysfo:date": "2021-12-30",
@@ -21,9 +23,11 @@
     "geom:latitude": 42.529906499999996,
     "geom:longitude": -122.3376055,
     "iata:airline": "AS",
+    "icao:aircraft": "B39M",
     "icao:airline": "ASA",
     "lbl:latitude": 37.616969,
     "lbl:longitude": -122.381363,
+    "sfomuseum:aircraft_id": 1528104577,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102533269,
@@ -34,6 +38,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-approach"
+    ],
+    "swim:tail_number": "N921AK",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +56,9 @@
       1745882085,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "11947500"
+    },
     "wof:country": "US",
     "wof:created": 1640966754,
     "wof:geomhash": "3123a4aff4021144fa8973299956ba97",
@@ -81,12 +92,13 @@
     ],
     "wof:id": 1746920191,
     "wof:involves": [
-      102527513,
       102533269,
       1159283813,
-      1745882097
+      1745882097,
+      1528104577,
+      102527513
     ],
-    "wof:lastmodified": 1640966754,
+    "wof:lastmodified": 1640977853,
     "wof:name": "AS548 (SEA-SFO)",
     "wof:parent_id": 1745882097,
     "wof:placetype": "custom",

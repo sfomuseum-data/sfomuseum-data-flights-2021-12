@@ -2,10 +2,12 @@
   "id": 1746919787,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2021-12-30",
-    "date:inception_upper": "2021-12-30",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-12-30",
+    "date:cessation_lower": "2021-12-31",
+    "date:cessation_upper": "2021-12-31",
+    "date:inception_lower": "2021-12-31",
+    "date:inception_upper": "2021-12-31",
+    "edtf:cessation": "2021-12-31T05:42:00Z",
+    "edtf:inception": "2021-12-31T01:50:00Z",
     "flysfo:actual_timestamp": 1640908800,
     "flysfo:airline": "AM",
     "flysfo:date": "2021-12-30",
@@ -21,9 +23,11 @@
     "geom:latitude": 29.0718085,
     "geom:longitude": -112.83645849999999,
     "iata:airline": "AM",
+    "icao:aircraft": "B738",
     "icao:airline": "AMX",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159283539,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102536387,
@@ -34,7 +38,16 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N958AM",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "11911418"
+    },
     "wof:country": "US",
     "wof:created": 1640966649,
     "wof:geomhash": "d1cf00e952c40abdeded8d31cdcdf72b",
@@ -45,12 +58,12 @@
     ],
     "wof:id": 1746919787,
     "wof:involves": [
-      102527513,
       102536387,
       1159283539,
-      -1
+      1159289871,
+      102527513
     ],
-    "wof:lastmodified": 1640966649,
+    "wof:lastmodified": 1640977854,
     "wof:name": "AM608 (GDL-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
