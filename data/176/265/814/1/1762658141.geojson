@@ -2,10 +2,12 @@
   "id": 1762658141,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-12-31",
+    "date:cessation_upper": "2021-12-31",
     "date:inception_lower": "2021-12-31",
     "date:inception_upper": "2021-12-31",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-12-31",
+    "edtf:cessation": "2021-12-31T20:52:00Z",
+    "edtf:inception": "2021-12-31T19:06:00Z",
     "flysfo:actual_timestamp": 1640995200,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-12-31",
@@ -21,9 +23,11 @@
     "geom:latitude": 42.529906499999996,
     "geom:longitude": -122.3376055,
     "iata:airline": "UA",
+    "icao:aircraft": "B739",
     "icao:airline": "UAL",
     "lbl:latitude": 37.619451,
     "lbl:longitude": -122.384404,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102533269,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N69830",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +57,10 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "12029639",
+      "swim:gufi": "KO55655600"
+    },
     "wof:country": "US",
     "wof:created": 1641054015,
     "wof:geomhash": "4036ee3c983703867dbe0486453848b1",
@@ -81,12 +94,13 @@
     ],
     "wof:id": 1762658141,
     "wof:involves": [
+      1377564285,
       102533269,
       102527513,
       1159285413,
       1745882315
     ],
-    "wof:lastmodified": 1641054015,
+    "wof:lastmodified": 1641054146,
     "wof:name": "UA2315 (SFO-SEA)",
     "wof:parent_id": 1745882315,
     "wof:placetype": "custom",

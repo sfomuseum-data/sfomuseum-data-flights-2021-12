@@ -2,10 +2,12 @@
   "id": 1762656955,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-12-31",
+    "date:cessation_upper": "2021-12-31",
     "date:inception_lower": "2021-12-31",
     "date:inception_upper": "2021-12-31",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-12-31",
+    "edtf:cessation": "2021-12-31T20:21:18Z",
+    "edtf:inception": "2021-12-31T15:27:00Z",
     "flysfo:actual_timestamp": 1640962560,
     "flysfo:airline": "AS",
     "flysfo:date": "2021-12-31",
@@ -21,9 +23,11 @@
     "geom:latitude": 29.475248999999998,
     "geom:longitude": -140.1446795,
     "iata:airline": "AS",
+    "icao:aircraft": "B39M",
     "icao:airline": "ASA",
     "lbl:latitude": 37.618139,
     "lbl:longitude": -122.381258,
+    "sfomuseum:aircraft_id": 1528104577,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102533997,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N291BT",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +58,9 @@
       1745882085,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "12012934"
+    },
     "wof:country": "US",
     "wof:created": 1641053723,
     "wof:geomhash": "ff961493fc59fc665836e174da62aa8e",
@@ -81,12 +94,13 @@
     ],
     "wof:id": 1762656955,
     "wof:involves": [
-      102533997,
-      102527513,
       1159283813,
-      1745882111
+      1745882111,
+      1528104577,
+      102533997,
+      102527513
     ],
-    "wof:lastmodified": 1641053723,
+    "wof:lastmodified": 1641054140,
     "wof:name": "AS743 (SFO-HNL)",
     "wof:parent_id": 1745882111,
     "wof:placetype": "custom",

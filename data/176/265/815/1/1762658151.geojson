@@ -2,10 +2,12 @@
   "id": 1762658151,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "1970-01-01",
+    "date:cessation_upper": "1970-01-01",
     "date:inception_lower": "2021-12-31",
     "date:inception_upper": "2021-12-31",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-12-31",
+    "edtf:cessation": "1970-01-01T00:00:00Z",
+    "edtf:inception": "2021-12-31T11:08:12-08:00",
     "flysfo:actual_timestamp": 1640995200,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-12-31",
@@ -21,9 +23,11 @@
     "geom:latitude": 33.9120825,
     "geom:longitude": -110.006986,
     "iata:airline": "UA",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102521851,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N420UA",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -81,12 +90,13 @@
     ],
     "wof:id": 1762658151,
     "wof:involves": [
+      1159292085,
       102521851,
       102527513,
       1159285413,
       1745882425
     ],
-    "wof:lastmodified": 1641054017,
+    "wof:lastmodified": 1641054147,
     "wof:name": "UA2356 (SFO-AUS)",
     "wof:parent_id": 1745882425,
     "wof:placetype": "custom",
