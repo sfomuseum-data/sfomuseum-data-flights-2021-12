@@ -17,9 +17,9 @@
     "flysfo:scheduled_timestamp": 1638546660,
     "flysfo:timestamp": 1638576000,
     "geom:area": 0,
-    "geom:bbox": "-122.370943,0.000000,0.000000,37.617990",
-    "geom:latitude": 18.808995,
-    "geom:longitude": -61.1854715,
+    "geom:bbox": "-122.806017,37.617990,-122.370943,38.510830",
+    "geom:latitude": 38.064409999999995,
+    "geom:longitude": -122.58848,
     "iata:airline": "UA",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61868,
@@ -50,7 +50,7 @@
     ],
     "wof:country": "US",
     "wof:created": 1638634260,
-    "wof:geomhash": "39d9eba3dc111bfc07b45f612540f4b0",
+    "wof:geomhash": "ba0ac8f0313e0faf8aa722fdd03f817a",
     "wof:hierarchy": [
       {
         "building_id": 1745882083,
@@ -86,7 +86,7 @@
       1159285413,
       1745882241
     ],
-    "wof:lastmodified": 1638634260,
+    "wof:lastmodified": 1651260649,
     "wof:name": "UA5743 (STS-SFO)",
     "wof:parent_id": 1745882241,
     "wof:placetype": "custom",
@@ -96,10 +96,10 @@
     "wof:supersedes": []
   },
   "bbox": [
+    -122.806017,
+    37.61799,
     -122.370943,
-    0,
-    0,
-    37.61799
+    38.51083
   ],
-  "geometry": {"coordinates":[[0,0],[-122.370943,37.61799]],"type":"MultiPoint"}
+  "geometry": {"coordinates":[[-122.806017,38.51083],[-122.370943,37.61799]],"type":"MultiPoint"}
 }

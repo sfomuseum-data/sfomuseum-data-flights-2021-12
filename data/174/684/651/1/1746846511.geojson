@@ -19,9 +19,9 @@
     "flysfo:scheduled_timestamp": 1639629780,
     "flysfo:timestamp": 1639630500,
     "geom:area": 0,
-    "geom:bbox": "-122.370943,0.000000,0.000000,37.617990",
-    "geom:latitude": 18.808995,
-    "geom:longitude": -61.1854715,
+    "geom:bbox": "-122.370943,33.942593,-118.389510,37.617990",
+    "geom:latitude": 35.780291500000004,
+    "geom:longitude": -120.38022649999999,
     "iata:airline": "WS",
     "iata:base_airline": "DL",
     "icao:airline": "WJA",
@@ -55,7 +55,7 @@
     ],
     "wof:country": "US",
     "wof:created": 1639671342,
-    "wof:geomhash": "f7b726ae54aa9222cfb9d243d2e793d0",
+    "wof:geomhash": "602be2a828e3460cadf44be5b1c2e36b",
     "wof:hierarchy": [
       {
         "building_id": 1745882083,
@@ -92,7 +92,7 @@
       1745882219,
       1159284261
     ],
-    "wof:lastmodified": 1639671342,
+    "wof:lastmodified": 1651260655,
     "wof:name": "WS7455 (SFO-LAX)",
     "wof:parent_id": 1745882219,
     "wof:placetype": "custom",
@@ -103,9 +103,9 @@
   },
   "bbox": [
     -122.370943,
-    0,
-    0,
+    33.942593,
+    -118.38951,
     37.61799
   ],
-  "geometry": {"coordinates":[[-122.370943,37.61799],[0,0]],"type":"MultiPoint"}
+  "geometry": {"coordinates":[[-122.370943,37.61799],[-118.38951,33.942593]],"type":"MultiPoint"}
 }

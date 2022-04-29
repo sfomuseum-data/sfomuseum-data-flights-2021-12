@@ -19,9 +19,9 @@
     "flysfo:scheduled_timestamp": 1638589500,
     "flysfo:timestamp": 1638590820,
     "geom:area": 0,
-    "geom:bbox": "-122.370943,0.000000,0.000000,37.617990",
-    "geom:latitude": 18.808995,
-    "geom:longitude": -61.1854715,
+    "geom:bbox": "-122.370943,32.005595,34.877214,37.617990",
+    "geom:latitude": 34.811792499999996,
+    "geom:longitude": -43.7468645,
     "iata:airline": "UA",
     "icao:aircraft": "B789",
     "icao:airline": "UAL",
@@ -59,7 +59,7 @@
     ],
     "wof:country": "US",
     "wof:created": 1638634899,
-    "wof:geomhash": "f7b726ae54aa9222cfb9d243d2e793d0",
+    "wof:geomhash": "1b9d916c097bbded3c8620fa2d25ceca",
     "wof:hierarchy": [
       {
         "building_id": 1745882083,
@@ -96,7 +96,7 @@
       102542687,
       102527513
     ],
-    "wof:lastmodified": 1638634934,
+    "wof:lastmodified": 1651260650,
     "wof:name": "UA954 (SFO-TLV)",
     "wof:parent_id": 1745882413,
     "wof:placetype": "custom",
@@ -107,9 +107,9 @@
   },
   "bbox": [
     -122.370943,
-    0,
-    0,
+    32.005595,
+    34.877214,
     37.61799
   ],
-  "geometry": {"coordinates":[[-122.370943,37.61799],[0,0]],"type":"MultiPoint"}
+  "geometry": {"coordinates":[[-122.370943,37.61799],[34.877214,32.005595]],"type":"MultiPoint"}
 }

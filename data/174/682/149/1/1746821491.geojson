@@ -19,9 +19,9 @@
     "flysfo:scheduled_timestamp": 1639277700,
     "flysfo:timestamp": 1639278060,
     "geom:area": 0,
-    "geom:bbox": "-122.370943,0.000000,0.000000,37.617990",
-    "geom:latitude": 18.808995,
-    "geom:longitude": -61.1854715,
+    "geom:bbox": "-122.370943,37.617990,11.776808,48.352681",
+    "geom:latitude": 42.9853355,
+    "geom:longitude": -55.2970675,
     "iata:airline": "NZ",
     "iata:base_airline": "LH",
     "icao:airline": "ANZ",
@@ -55,7 +55,7 @@
     ],
     "wof:country": "US",
     "wof:created": 1639325025,
-    "wof:geomhash": "39d9eba3dc111bfc07b45f612540f4b0",
+    "wof:geomhash": "eba9741d16611c9af3d962416d546de7",
     "wof:hierarchy": [
       {
         "building_id": 1745882083,
@@ -92,7 +92,7 @@
       1745882413,
       1159286015
     ],
-    "wof:lastmodified": 1639325025,
+    "wof:lastmodified": 1651260651,
     "wof:name": "NZ4222 (MUC-SFO)",
     "wof:parent_id": 1745882413,
     "wof:placetype": "custom",
@@ -103,9 +103,9 @@
   },
   "bbox": [
     -122.370943,
-    0,
-    0,
-    37.61799
+    37.61799,
+    11.776808,
+    48.352681
   ],
-  "geometry": {"coordinates":[[0,0],[-122.370943,37.61799]],"type":"MultiPoint"}
+  "geometry": {"coordinates":[[11.776808,48.352681],[-122.370943,37.61799]],"type":"MultiPoint"}
 }

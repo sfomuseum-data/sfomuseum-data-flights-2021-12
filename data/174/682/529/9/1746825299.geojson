@@ -19,9 +19,9 @@
     "flysfo:scheduled_timestamp": 1639291200,
     "flysfo:timestamp": 1639293360,
     "geom:area": 0,
-    "geom:bbox": "-122.370943,0.000000,0.000000,37.617990",
-    "geom:latitude": 18.808995,
-    "geom:longitude": -61.1854715,
+    "geom:bbox": "-122.370943,37.617990,11.776808,48.352681",
+    "geom:latitude": 42.9853355,
+    "geom:longitude": -55.2970675,
     "iata:airline": "UA",
     "iata:base_airline": "LH",
     "icao:airline": "UAL",
@@ -55,7 +55,7 @@
     ],
     "wof:country": "US",
     "wof:created": 1639326015,
-    "wof:geomhash": "f7b726ae54aa9222cfb9d243d2e793d0",
+    "wof:geomhash": "d9a5d9d800d6bc92413ff3768040f8da",
     "wof:hierarchy": [
       {
         "building_id": 1745882083,
@@ -92,7 +92,7 @@
       1745882413,
       1159286015
     ],
-    "wof:lastmodified": 1639326015,
+    "wof:lastmodified": 1651260652,
     "wof:name": "UA8882 (SFO-MUC)",
     "wof:parent_id": 1745882413,
     "wof:placetype": "custom",
@@ -103,9 +103,9 @@
   },
   "bbox": [
     -122.370943,
-    0,
-    0,
-    37.61799
+    37.61799,
+    11.776808,
+    48.352681
   ],
-  "geometry": {"coordinates":[[-122.370943,37.61799],[0,0]],"type":"MultiPoint"}
+  "geometry": {"coordinates":[[-122.370943,37.61799],[11.776808,48.352681]],"type":"MultiPoint"}
 }

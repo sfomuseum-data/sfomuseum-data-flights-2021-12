@@ -17,9 +17,9 @@
     "flysfo:scheduled_timestamp": 1638599700,
     "flysfo:timestamp": 1638601740,
     "geom:area": 0,
-    "geom:bbox": "-122.370943,0.000000,0.000000,37.617990",
-    "geom:latitude": 18.808995,
-    "geom:longitude": -61.1854715,
+    "geom:bbox": "-122.806017,37.617990,-122.370943,38.510830",
+    "geom:latitude": 38.064409999999995,
+    "geom:longitude": -122.58848,
     "iata:airline": "UA",
     "icao:airline": "UAL",
     "lbl:latitude": 37.620731,
@@ -50,7 +50,7 @@
     ],
     "wof:country": "US",
     "wof:created": 1638634867,
-    "wof:geomhash": "f7b726ae54aa9222cfb9d243d2e793d0",
+    "wof:geomhash": "445cb052fce1c70fb6dd740469d7b570",
     "wof:hierarchy": [
       {
         "building_id": 1745882083,
@@ -86,7 +86,7 @@
       1159285413,
       1745882267
     ],
-    "wof:lastmodified": 1638634867,
+    "wof:lastmodified": 1651260650,
     "wof:name": "UA5468 (SFO-STS)",
     "wof:parent_id": 1745882267,
     "wof:placetype": "custom",
@@ -96,10 +96,10 @@
     "wof:supersedes": []
   },
   "bbox": [
+    -122.806017,
+    37.61799,
     -122.370943,
-    0,
-    0,
-    37.61799
+    38.51083
   ],
-  "geometry": {"coordinates":[[-122.370943,37.61799],[0,0]],"type":"MultiPoint"}
+  "geometry": {"coordinates":[[-122.370943,37.61799],[-122.806017,38.51083]],"type":"MultiPoint"}
 }
