@@ -40,6 +40,7 @@
     "wof:geomhash": "99c2bdbe61e95eb26a51b43b0c172358",
     "wof:hierarchy": [
       {
+        "custom_id": 1746847813,
         "flight_id": 1746847813
       }
     ],
@@ -50,11 +51,13 @@
       1159284563,
       -1
     ],
-    "wof:lastmodified": 1639757202,
+    "wof:lastmodified": 1717037498,
     "wof:name": "JL2 (HND-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
-    "wof:placetype_alt": "flight",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-12",
     "wof:superseded_by": [],
     "wof:supersedes": []

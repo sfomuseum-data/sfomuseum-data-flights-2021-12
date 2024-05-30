@@ -51,6 +51,7 @@
     "wof:geomhash": "01999c4327be8e36df88ffd5cda77111",
     "wof:hierarchy": [
       {
+        "custom_id": 1746845205,
         "flight_id": 1746845205
       }
     ],
@@ -61,11 +62,13 @@
       102527513,
       1159283539
     ],
-    "wof:lastmodified": 1639671362,
+    "wof:lastmodified": 1717037496,
     "wof:name": "AM669 (SFO-MEX)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
-    "wof:placetype_alt": "flight",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-12",
     "wof:superseded_by": [],
     "wof:supersedes": []

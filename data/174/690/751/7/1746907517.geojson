@@ -54,6 +54,7 @@
     "wof:geomhash": "c5a7260789285730f3096bea2169f55b",
     "wof:hierarchy": [
       {
+        "custom_id": 1746907517,
         "flight_id": 1746907517
       }
     ],
@@ -64,11 +65,13 @@
       1159292085,
       102527513
     ],
-    "wof:lastmodified": 1640795058,
+    "wof:lastmodified": 1717037504,
     "wof:name": "B62843 (BDL-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
-    "wof:placetype_alt": "flight",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-12",
     "wof:superseded_by": [],
     "wof:supersedes": []

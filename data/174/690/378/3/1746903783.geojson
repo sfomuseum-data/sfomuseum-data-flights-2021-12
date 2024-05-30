@@ -53,6 +53,7 @@
     "wof:geomhash": "6cbb76e93301e33133b7541a51de6b35",
     "wof:hierarchy": [
       {
+        "custom_id": 1746903783,
         "flight_id": 1746903783
       }
     ],
@@ -63,11 +64,13 @@
       102544207,
       102527513
     ],
-    "wof:lastmodified": 1640708618,
+    "wof:lastmodified": 1717037503,
     "wof:name": "SK936 (SFO-CPH)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
-    "wof:placetype_alt": "flight",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-12",
     "wof:superseded_by": [],
     "wof:supersedes": []

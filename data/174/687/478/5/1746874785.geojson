@@ -53,6 +53,7 @@
     "wof:geomhash": "b0d868dab19a217943f06d97e1bf7ce6",
     "wof:hierarchy": [
       {
+        "custom_id": 1746874785,
         "flight_id": 1746874785
       }
     ],
@@ -63,11 +64,13 @@
       1159289871,
       102531205
     ],
-    "wof:lastmodified": 1640189861,
+    "wof:lastmodified": 1717037497,
     "wof:name": "WN5392 (SFO-MDW)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
-    "wof:placetype_alt": "flight",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-12",
     "wof:superseded_by": [],
     "wof:supersedes": []

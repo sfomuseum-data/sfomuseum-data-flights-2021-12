@@ -53,6 +53,7 @@
     "wof:geomhash": "d45c6baaf0d56697f52acbb8a9e14867",
     "wof:hierarchy": [
       {
+        "custom_id": 1746797929,
         "flight_id": 1746797929
       }
     ],
@@ -63,11 +64,13 @@
       102527373,
       1159284261
     ],
-    "wof:lastmodified": 1638894160,
+    "wof:lastmodified": 1717037499,
     "wof:name": "DL8844 (SAT-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
-    "wof:placetype_alt": "flight",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-12",
     "wof:superseded_by": [],
     "wof:supersedes": []

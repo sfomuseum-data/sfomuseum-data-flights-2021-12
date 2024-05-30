@@ -54,6 +54,7 @@
     "wof:geomhash": "c362a07ec1dacdc6f288623946bd8d01",
     "wof:hierarchy": [
       {
+        "custom_id": 1746906429,
         "flight_id": 1746906429
       }
     ],
@@ -64,11 +65,13 @@
       102555091,
       1159283597
     ],
-    "wof:lastmodified": 1640795051,
+    "wof:lastmodified": 1717037503,
     "wof:name": "AC745 (YYZ-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
-    "wof:placetype_alt": "flight",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-12",
     "wof:superseded_by": [],
     "wof:supersedes": []

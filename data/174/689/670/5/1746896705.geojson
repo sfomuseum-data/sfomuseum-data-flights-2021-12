@@ -49,6 +49,7 @@
     "wof:geomhash": "1ad63fa22de9103ed4396c0ca683f63f",
     "wof:hierarchy": [
       {
+        "custom_id": 1746896705,
         "flight_id": 1746896705
       }
     ],
@@ -59,11 +60,13 @@
       102533997,
       1159285413
     ],
-    "wof:lastmodified": 1640622717,
+    "wof:lastmodified": 1717037504,
     "wof:name": "UA724 (HNL-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
-    "wof:placetype_alt": "flight",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-12",
     "wof:superseded_by": [],
     "wof:supersedes": []

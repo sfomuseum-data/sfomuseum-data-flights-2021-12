@@ -52,6 +52,7 @@
     "wof:geomhash": "3d1812cb234aac8b643ea0201167e576",
     "wof:hierarchy": [
       {
+        "custom_id": 1746869569,
         "flight_id": 1746869569
       }
     ],
@@ -62,11 +63,13 @@
       1159283813,
       1159292085
     ],
-    "wof:lastmodified": 1640103895,
+    "wof:lastmodified": 1717037500,
     "wof:name": "AS9800 (SFO-SAT)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
-    "wof:placetype_alt": "flight",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-12",
     "wof:superseded_by": [],
     "wof:supersedes": []

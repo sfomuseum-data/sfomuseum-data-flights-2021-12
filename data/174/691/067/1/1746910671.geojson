@@ -40,6 +40,7 @@
     "wof:geomhash": "671e58da07f1ec37fb4507b393a80870",
     "wof:hierarchy": [
       {
+        "custom_id": 1746910671,
         "flight_id": 1746910671
       }
     ],
@@ -50,11 +51,13 @@
       1159285413,
       -1
     ],
-    "wof:lastmodified": 1640794949,
+    "wof:lastmodified": 1717037501,
     "wof:name": "UA466 (SFO-MRY)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
-    "wof:placetype_alt": "flight",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-12",
     "wof:superseded_by": [],
     "wof:supersedes": []

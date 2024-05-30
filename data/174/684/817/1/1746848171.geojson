@@ -53,6 +53,7 @@
     "wof:geomhash": "0c6e1b69ec0e7e239d3f5365b057a47f",
     "wof:hierarchy": [
       {
+        "custom_id": 1746848171,
         "flight_id": 1746848171
       }
     ],
@@ -63,11 +64,13 @@
       102531131,
       1159285227
     ],
-    "wof:lastmodified": 1639758054,
+    "wof:lastmodified": 1717037498,
     "wof:name": "SY391 (MSP-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
-    "wof:placetype_alt": "flight",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-12",
     "wof:superseded_by": [],
     "wof:supersedes": []

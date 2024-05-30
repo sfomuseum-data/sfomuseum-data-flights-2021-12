@@ -51,6 +51,7 @@
     "wof:geomhash": "ccdcde8e2753acf4845b350f07bc56a7",
     "wof:hierarchy": [
       {
+        "custom_id": 1746926455,
         "flight_id": 1746926455
       }
     ],
@@ -61,11 +62,13 @@
       102544453,
       1377649073
     ],
-    "wof:lastmodified": 1641054141,
+    "wof:lastmodified": 1717037503,
     "wof:name": "BF710 (ORY-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
-    "wof:placetype_alt": "flight",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-12",
     "wof:superseded_by": [],
     "wof:supersedes": []

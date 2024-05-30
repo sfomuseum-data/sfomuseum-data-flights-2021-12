@@ -45,6 +45,7 @@
     "wof:geomhash": "416bdc237edab89fa41708dc7205b7b6",
     "wof:hierarchy": [
       {
+        "custom_id": 1746845873,
         "flight_id": 1746845873
       }
     ],
@@ -56,11 +57,13 @@
       -1,
       1159286153
     ],
-    "wof:lastmodified": 1639671170,
+    "wof:lastmodified": 1717037496,
     "wof:name": "MH9732 (SFO-DOH)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
-    "wof:placetype_alt": "flight",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-12",
     "wof:superseded_by": [],
     "wof:supersedes": []

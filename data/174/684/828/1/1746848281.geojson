@@ -48,6 +48,7 @@
     "wof:geomhash": "bbd014edfd8455b7d9e062bec23e52e6",
     "wof:hierarchy": [
       {
+        "custom_id": 1746848281,
         "flight_id": 1746848281
       }
     ],
@@ -58,11 +59,13 @@
       102531205,
       1159285591
     ],
-    "wof:lastmodified": 1639758054,
+    "wof:lastmodified": 1717037498,
     "wof:name": "WN3913 (MDW-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
-    "wof:placetype_alt": "flight",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-12",
     "wof:superseded_by": [],
     "wof:supersedes": []

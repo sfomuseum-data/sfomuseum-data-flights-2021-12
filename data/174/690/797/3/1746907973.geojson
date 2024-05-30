@@ -48,6 +48,7 @@
     "wof:geomhash": "f16008bc2ad68c6d1bc593247c6c74a9",
     "wof:hierarchy": [
       {
+        "custom_id": 1746907973,
         "flight_id": 1746907973
       }
     ],
@@ -58,11 +59,13 @@
       102533795,
       1159285591
     ],
-    "wof:lastmodified": 1640795062,
+    "wof:lastmodified": 1717037504,
     "wof:name": "WN2422 (LAX-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
-    "wof:placetype_alt": "flight",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-12",
     "wof:superseded_by": [],
     "wof:supersedes": []

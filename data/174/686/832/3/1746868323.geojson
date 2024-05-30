@@ -53,6 +53,7 @@
     "wof:geomhash": "1ad63fa22de9103ed4396c0ca683f63f",
     "wof:hierarchy": [
       {
+        "custom_id": 1746868323,
         "flight_id": 1746868323
       }
     ],
@@ -63,11 +64,13 @@
       102527513,
       102533997
     ],
-    "wof:lastmodified": 1640103891,
+    "wof:lastmodified": 1717037498,
     "wof:name": "UA396 (HNL-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
-    "wof:placetype_alt": "flight",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-12",
     "wof:superseded_by": [],
     "wof:supersedes": []

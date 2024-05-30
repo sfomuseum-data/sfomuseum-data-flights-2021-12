@@ -40,6 +40,7 @@
     "wof:geomhash": "33c9625a4901edf29154e5ec4b308b8b",
     "wof:hierarchy": [
       {
+        "custom_id": 1746916285,
         "flight_id": 1746916285
       }
     ],
@@ -50,11 +51,13 @@
       1159284261,
       -1
     ],
-    "wof:lastmodified": 1640881038,
+    "wof:lastmodified": 1717037503,
     "wof:name": "DL8843 (SFO-MCO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
-    "wof:placetype_alt": "flight",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-12",
     "wof:superseded_by": [],
     "wof:supersedes": []

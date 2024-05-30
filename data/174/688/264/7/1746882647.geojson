@@ -49,6 +49,7 @@
     "wof:geomhash": "5f8ba203e186fe379420b736bcf5de4f",
     "wof:hierarchy": [
       {
+        "custom_id": 1746882647,
         "flight_id": 1746882647
       }
     ],
@@ -59,11 +60,13 @@
       1159283813,
       1377564285
     ],
-    "wof:lastmodified": 1640363059,
+    "wof:lastmodified": 1717037500,
     "wof:name": "AS9805 (SFO-EWR)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
-    "wof:placetype_alt": "flight",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-12",
     "wof:superseded_by": [],
     "wof:supersedes": []

@@ -51,6 +51,7 @@
     "wof:geomhash": "c9618692327b148a3f9466df78845400",
     "wof:hierarchy": [
       {
+        "custom_id": 1746843659,
         "flight_id": 1746843659
       }
     ],
@@ -61,11 +62,13 @@
       1159283649,
       1159289989
     ],
-    "wof:lastmodified": 1639671356,
+    "wof:lastmodified": 1717037495,
     "wof:name": "AI173 (DEL-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
-    "wof:placetype_alt": "flight",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-12",
     "wof:superseded_by": [],
     "wof:supersedes": []

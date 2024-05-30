@@ -45,6 +45,7 @@
     "wof:geomhash": "b0708fbc9882ec26729f19c3bf135279",
     "wof:hierarchy": [
       {
+        "custom_id": 1746848927,
         "flight_id": 1746848927
       }
     ],
@@ -56,11 +57,13 @@
       -1,
       1159284563
     ],
-    "wof:lastmodified": 1639757480,
+    "wof:lastmodified": 1717037499,
     "wof:name": "AA8410 (SFO-NRT)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
-    "wof:placetype_alt": "flight",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-12",
     "wof:superseded_by": [],
     "wof:supersedes": []

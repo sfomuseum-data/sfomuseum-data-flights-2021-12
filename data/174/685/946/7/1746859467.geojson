@@ -49,6 +49,7 @@
     "wof:geomhash": "d52bb0a5cfa06eebb6a938b29d78a44d",
     "wof:hierarchy": [
       {
+        "custom_id": 1746859467,
         "flight_id": 1746859467
       }
     ],
@@ -59,11 +60,13 @@
       1159285271,
       1393786509
     ],
-    "wof:lastmodified": 1639930785,
+    "wof:lastmodified": 1717037500,
     "wof:name": "TP236 (SFO-LIS)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
-    "wof:placetype_alt": "flight",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-12",
     "wof:superseded_by": [],
     "wof:supersedes": []

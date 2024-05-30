@@ -45,6 +45,7 @@
     "wof:geomhash": "d5ad4a83d3d679d1b3fe86e419b08d84",
     "wof:hierarchy": [
       {
+        "custom_id": 1746921797,
         "flight_id": 1746921797
       }
     ],
@@ -55,11 +56,13 @@
       1159285413,
       -1
     ],
-    "wof:lastmodified": 1640977865,
+    "wof:lastmodified": 1717037502,
     "wof:name": "UA643 (KOA-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
-    "wof:placetype_alt": "flight",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-12",
     "wof:superseded_by": [],
     "wof:supersedes": []

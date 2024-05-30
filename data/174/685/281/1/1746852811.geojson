@@ -52,6 +52,7 @@
     "wof:geomhash": "579cc6c0d5668ba584a946b357aa3191",
     "wof:hierarchy": [
       {
+        "custom_id": 1746852811,
         "flight_id": 1746852811
       }
     ],
@@ -62,11 +63,13 @@
       1159289869,
       102527513
     ],
-    "wof:lastmodified": 1639844402,
+    "wof:lastmodified": 1717037495,
     "wof:name": "WN4378 (BUR-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
-    "wof:placetype_alt": "flight",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-12",
     "wof:superseded_by": [],
     "wof:supersedes": []

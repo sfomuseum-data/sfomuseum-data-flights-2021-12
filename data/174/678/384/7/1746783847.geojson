@@ -48,6 +48,7 @@
     "wof:geomhash": "a5dc7134a1c5d943495b40cb1b713674",
     "wof:hierarchy": [
       {
+        "custom_id": 1746783847,
         "flight_id": 1746783847
       }
     ],
@@ -58,11 +59,13 @@
       102531775,
       1159284261
     ],
-    "wof:lastmodified": 1638634927,
+    "wof:lastmodified": 1717037496,
     "wof:name": "DL8937 (HOU-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
-    "wof:placetype_alt": "flight",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-12",
     "wof:superseded_by": [],
     "wof:supersedes": []

@@ -45,6 +45,7 @@
     "wof:geomhash": "b03e5f5c78933bb0f626aa81ed57f330",
     "wof:hierarchy": [
       {
+        "custom_id": 1746851097,
         "flight_id": 1746851097
       }
     ],
@@ -56,11 +57,13 @@
       -1,
       1159284613
     ],
-    "wof:lastmodified": 1639758029,
+    "wof:lastmodified": 1717037494,
     "wof:name": "VS6858 (SFO-AMS)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
-    "wof:placetype_alt": "flight",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-12",
     "wof:superseded_by": [],
     "wof:supersedes": []

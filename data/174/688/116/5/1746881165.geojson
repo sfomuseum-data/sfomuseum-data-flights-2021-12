@@ -48,6 +48,7 @@
     "wof:geomhash": "8fe6791c85dc44fbddffd72416ea0024",
     "wof:hierarchy": [
       {
+        "custom_id": 1746881165,
         "flight_id": 1746881165
       }
     ],
@@ -58,11 +59,13 @@
       102529173,
       1159285591
     ],
-    "wof:lastmodified": 1640363049,
+    "wof:lastmodified": 1717037499,
     "wof:name": "WN423 (ABQ-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
-    "wof:placetype_alt": "flight",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-12",
     "wof:superseded_by": [],
     "wof:supersedes": []

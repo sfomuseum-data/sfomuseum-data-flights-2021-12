@@ -51,6 +51,7 @@
     "wof:geomhash": "fcf5095e8d1a14d003993bc5070a7f0f",
     "wof:hierarchy": [
       {
+        "custom_id": 1746886299,
         "flight_id": 1746886299
       }
     ],
@@ -61,11 +62,13 @@
       1159289871,
       102527513
     ],
-    "wof:lastmodified": 1640449925,
+    "wof:lastmodified": 1717037503,
     "wof:name": "WN4562 (LAS-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
-    "wof:placetype_alt": "flight",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-12",
     "wof:superseded_by": [],
     "wof:supersedes": []

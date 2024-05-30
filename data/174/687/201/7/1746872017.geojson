@@ -48,6 +48,7 @@
     "wof:geomhash": "87e43b321087b5e7d68ac47fe0a6e824",
     "wof:hierarchy": [
       {
+        "custom_id": 1746872017,
         "flight_id": 1746872017
       }
     ],
@@ -58,11 +59,13 @@
       102536481,
       1159283813
     ],
-    "wof:lastmodified": 1640189864,
+    "wof:lastmodified": 1717037495,
     "wof:name": "AS1273 (PVR-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
-    "wof:placetype_alt": "flight",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-12",
     "wof:superseded_by": [],
     "wof:supersedes": []

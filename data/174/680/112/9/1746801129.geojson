@@ -54,6 +54,7 @@
     "wof:geomhash": "ac29143dee46faf8dc4d82fa5cfc7601",
     "wof:hierarchy": [
       {
+        "custom_id": 1746801129,
         "flight_id": 1746801129
       }
     ],
@@ -64,11 +65,13 @@
       102527513,
       1159285413
     ],
-    "wof:lastmodified": 1638894161,
+    "wof:lastmodified": 1717037494,
     "wof:name": "UA2205 (SFO-EUG)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
-    "wof:placetype_alt": "flight",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-12",
     "wof:superseded_by": [],
     "wof:supersedes": []

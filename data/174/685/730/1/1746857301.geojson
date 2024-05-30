@@ -51,6 +51,7 @@
     "wof:geomhash": "d927879de9f350bec45f63af3f2c3973",
     "wof:hierarchy": [
       {
+        "custom_id": 1746857301,
         "flight_id": 1746857301
       }
     ],
@@ -61,11 +62,13 @@
       102535643,
       1159285271
     ],
-    "wof:lastmodified": 1639930789,
+    "wof:lastmodified": 1717037499,
     "wof:name": "TP237 (LIS-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
-    "wof:placetype_alt": "flight",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-12",
     "wof:superseded_by": [],
     "wof:supersedes": []

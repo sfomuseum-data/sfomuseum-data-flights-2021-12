@@ -40,6 +40,7 @@
     "wof:geomhash": "3dda75dcf1fae64b97c7a2b018cfa114",
     "wof:hierarchy": [
       {
+        "custom_id": 1746849961,
         "flight_id": 1746849961
       }
     ],
@@ -50,11 +51,13 @@
       1159283495,
       -1
     ],
-    "wof:lastmodified": 1639757749,
+    "wof:lastmodified": 1717037500,
     "wof:name": "EI60 (SFO-DUB)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
-    "wof:placetype_alt": "flight",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-12",
     "wof:superseded_by": [],
     "wof:supersedes": []

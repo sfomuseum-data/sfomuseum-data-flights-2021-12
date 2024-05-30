@@ -51,6 +51,7 @@
     "wof:geomhash": "976937653dbac6c9c27dd23670ba89bf",
     "wof:hierarchy": [
       {
+        "custom_id": 1746874759,
         "flight_id": 1746874759
       }
     ],
@@ -61,11 +62,13 @@
       102527513,
       1159285591
     ],
-    "wof:lastmodified": 1640189861,
+    "wof:lastmodified": 1717037497,
     "wof:name": "WN2259 (SFO-DEN)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
-    "wof:placetype_alt": "flight",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-12",
     "wof:superseded_by": [],
     "wof:supersedes": []
